@@ -7,6 +7,13 @@ files_scanned = 0
 files_accepted = 0
 files_rejected = 0
 errors = 0
+no_id = 0
+no_title = 0
+no_description = 0
+no_short_description = 0
+not_painting = 0
+no_imageid = 0
+no_artwork_type = 0
 
 def main():
     cycle_through_files()
@@ -21,19 +28,29 @@ def cycle_through_files():
         files_scanned +=1
         get_data(file_path)
 
-
-    global files_accepted
-    global files_rejected
-    global errors
     global no_id
     global no_title
     global no_description
     global no_short_description
     global not_painting
+    global no_imageid
+    global files_accepted
+    global files_rejected
+    global errors
+
+    print("Scrape Summary: ")
     print(f"Files accepted: {files_accepted}")
     print(f"Files rejected: {files_rejected}")
     print(f"Files scanned: {files_scanned}")
     print(f"Errors: {errors}")
+    print(f"No ID: {no_id}")
+    print(f"No Title: {no_title}")
+    print(f"No Description: {no_description}")
+    print(f"No Short Description: {no_short_description}")
+    print(f"Not painting: {not_painting}")
+    print(f"No image ID: {no_imageid}")
+
+    
     
 def get_data(file):
     try:
@@ -57,9 +74,33 @@ def get_data(file):
         print(f"Unexpected error: {e} in file: {file}")
         return
 
+    artwork_type = artwork_info.get("artwork_type_title")
+    global no_id
+    global no_title
+    global no_description
+    global no_short_description
+    global not_painting
+    global no_imageid
+    global no_artwork_type
+    if artwork_info.get("id") == None:
+        no_id += 1
+    elif artwork_info.get("title") == None:
+        no_title += 1
+    elif artwork_info.get("description") == None:
+        no_description += 1
+    elif artwork_info.get("short_description") == None:
+        no_short_description += 1
+    elif artwork_info.get("image_id") == None:
+        no_imageid += 1
+    elif artwork_info.get("artwork_type_title") == None:
+        no_artwork_type += 1
+    if artwork_type is not None:
+        if "painting" not in artwork_type.lower():
+            not_painting += 1
+    
 
-    if artwork_info.get("id") != None and artwork_info.get("title") != None and (artwork_info.get("description") != None or artwork_info.get("short_description") != None) and artwork_info.get("image_id") != None:
-        if artwork_info.get("artwork_type_title") == None or "painting" in artwork_info.get("artwork_type_title").lower():
+    if artwork_info.get("id") != None and artwork_info.get("title") != None and (artwork_info.get("description") != None or artwork_info.get("short_description") != None) and artwork_info.get("image_id") != None and artwork_type != None:
+        if "painting" in artwork_info.get("artwork_type_title").lower():
             global files_accepted
             artwork_info_load = {
                 "filename" : remove_local_path(file),
