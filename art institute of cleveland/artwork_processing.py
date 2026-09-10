@@ -1,6 +1,8 @@
 import json
 import requests
 
+artwork_tracker = 0
+
 # trackers
 no_id = 0
 no_title = 0
@@ -13,13 +15,15 @@ no_image = 0
 
 
 
-def data_collection(skip, limit):
+
+def data_collection(step):
+    global artwork_tracker
     url = "https://openaccess-api.clevelandart.org/api/artworks"
     params = {
             'has_image': 1,
-            'limit': limit,
+            'limit': (step + artwork_tracker),
             'type': 'Painting',
-            'skip' : skip,
+            'skip' : artwork_tracker,
             'fields' : 'id,title,description,creation_date_earliest,creation_date_latest,creators,technique,type,images,url,share_license_status'
         }
 
@@ -27,7 +31,7 @@ def data_collection(skip, limit):
 
     data = r.json()
 
-    accepted_artworks  = []
+    accepted_artworks = []
 
     for artwork in data['data']:
         artwork_id = artwork.get('id')
@@ -59,8 +63,11 @@ def data_collection(skip, limit):
 
         if data_validation(artwork):
             accepted_artworks.append(artwork)
+            global artwork_tracker
+            artwork_tracker += 1
 
-    return accepted_artworks
+    write_artwork(accepted_artworks)
+
 
 
 def data_validation(artwork):
@@ -99,9 +106,11 @@ def data_validation(artwork):
         no_image += 1
     return return_boolean
 
+def write_artwork(artwork):
+    
 
 if __name__ == '__main__':
-    results = data_collection(0, 3)
+    results = data_collection(25)
     print(type(results))
     print(len(results))
     print(results[0])
@@ -116,5 +125,3 @@ if __name__ == '__main__':
     "technique": "Oil on canvas",
     "image": "https://example.com/image.jpg"
     }
-
-    print(data_validation(test_artwork))
