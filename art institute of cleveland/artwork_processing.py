@@ -6,7 +6,7 @@ def print_openaccess_results():
     url = "https://openaccess-api.clevelandart.org/api/artworks"
     params = {
             'has_image': 1,
-            'limit': 3,
+            'limit': 250,
             'type': 'Painting',
             'skip' : 0,
             'fields' : 'id,title,description,creation_date_earliest,creation_date_latest,creators,technique,type,images,url,share_license_status'
@@ -20,14 +20,17 @@ def print_openaccess_results():
 
     for artwork in data['data']:
         artwork_id = artwork.get('id')
-        artwork_title = artwork['title']
-        artwork_desc = artwork['description']
-        artwork_date_earliest = artwork['creation_date_earliest']
-        artwork_date_latest = artwork['creation_date_latest']
-        artwork_creators = artwork['creators']
-        artwork_technique = artwork['technique']
-        artwork_type = artwork['type']
-        artwork_image = artwork['images']['web']['url']
+        artwork_title = artwork.get('title')
+        artwork_desc = artwork.get('description')
+        artwork_date_earliest = artwork.get('creation_date_earliest')
+        artwork_date_latest = artwork.get('creation_date_latest')
+        artwork_creators = artwork.get('creators')
+        artwork_technique = artwork.get('technique')
+        artwork_type = artwork.get('type')
+        try:
+            artwork_image = artwork['images']['web']['url']
+        except KeyError:
+            artwork_image = "None"
         print(f"ID: {artwork_id}")
         print(f"Title: {artwork_title}")
         print(f"Description: {artwork_desc}")
