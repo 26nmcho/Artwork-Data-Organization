@@ -27,7 +27,7 @@ def data_collection(skip, limit):
 
     data = r.json()
 
-
+    accepted_artworks  = []
 
     for artwork in data['data']:
         artwork_id = artwork.get('id')
@@ -42,19 +42,26 @@ def data_collection(skip, limit):
         except KeyError:
             artwork_image = None
         creator_list = []
-        for creator in artwork_creators:
-            name = creator.get('description')
-            creator_list.add(name)
+        if artwork_creators != None:
+            for creator in artwork_creators:
+                name = creator.get('description')
+                creator_list.append(name)
         artwork = {
             'id' : artwork_id,
             'title' : artwork_title,
             'description' : artwork_desc,
             'creation date early' : artwork_date_earliest,
             'creation date late' : artwork_date_latest,
-            'creators' : artwork_creators,
+            'creators' : creator_list,
             'technique' : artwork_technique,
             'image' : artwork_image
         }
+
+        if data_validation(artwork):
+            accepted_artworks.append(artwork)
+
+    return accepted_artworks
+
 
 def data_validation(artwork):
     return_boolean = True
@@ -62,31 +69,31 @@ def data_validation(artwork):
         return_boolean = False
         global no_id
         no_id += 1
-    elif artwork['title'] == None:
+    if artwork['title'] == None:
         return_boolean = False
         global no_title
         no_title += 1
-    elif artwork['description'] == None:
+    if artwork['description'] == None:
         return_boolean = False
         global no_desc
         no_desc += 1
-    elif artwork['creation date early'] == None:
+    if artwork['creation date early'] == None:
         return_boolean = False
         global no_early_date
         no_early_date += 1
-    elif artwork['creation date late'] == None:
+    if artwork['creation date late'] == None:
         return_boolean = False
         global no_late_date
         no_late_date += 1
-    elif artwork['creators'] == None:
+    if artwork['creators'] == None:
         return_boolean = False
         global no_creator
         no_creator += 1
-    elif artwork['technique'] == None:
+    if artwork['technique'] == None:
         return_boolean = False
         global no_technique
         no_technique += 1
-    elif artwork['image'] == None:
+    if artwork['image'] == None:
         return_boolean = False
         global no_image
         no_image += 1
@@ -94,4 +101,20 @@ def data_validation(artwork):
 
 
 if __name__ == '__main__':
-    data_collection(0, 250)
+    results = data_collection(0, 3)
+    print(type(results))
+    print(len(results))
+    print(results[0])
+
+    test_artwork = {
+    "id": 1,
+    "title": "Test",
+    "description": "Test description",
+    "creation date early": 1900,
+    "creation date late": 1901,
+    "creators": ["Test Artist"],
+    "technique": "Oil on canvas",
+    "image": "https://example.com/image.jpg"
+    }
+
+    print(data_validation(test_artwork))
