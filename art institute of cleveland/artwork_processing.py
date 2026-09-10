@@ -63,7 +63,6 @@ def data_collection(step):
 
         if data_validation(artwork):
             accepted_artworks.append(artwork)
-            global artwork_tracker
             artwork_tracker += 1
 
     write_artwork(accepted_artworks)
@@ -106,8 +105,19 @@ def data_validation(artwork):
         no_image += 1
     return return_boolean
 
-def write_artwork(artwork):
-    
+def write_artwork(accepted_artworks):
+    global artwork_tracker
+
+    if artwork_tracker > 0:
+        with open("cleveland_harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
+            collected_data = json.load(read_file)
+    else:
+        collected_data = []
+        
+    collected_data.append(accepted_artworks)
+                        
+    with open("cleveland_harvested_data.json", "w", encoding="utf-8") as write_file:
+        json.dump(collected_data, write_file, indent=4)
 
 if __name__ == '__main__':
     results = data_collection(25)

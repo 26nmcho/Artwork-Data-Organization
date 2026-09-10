@@ -134,14 +134,14 @@ def get_data(file):
 
 
             if files_accepted > 0:
-                with open("harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
+                with open("chicago_harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
                     accepted_artwork_list = json.load(read_file)
             else:
                 accepted_artwork_list = []
 
             accepted_artwork_list.append(artwork_info_load)
                 
-            with open("harvested_data.json", mode="w",encoding="utf-8-sig", errors="ignore") as write_file:
+            with open("chicago_harvested_data.json", mode="w",encoding="utf-8-sig", errors="ignore") as write_file:
                 json.dump(accepted_artwork_list, write_file, indent=0)
 
             files_accepted += 1
