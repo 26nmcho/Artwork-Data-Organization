@@ -23,17 +23,28 @@ def read_harvested_data():
         return
 
     for art in image_info:
+        print(art.get("image_id"))
         create_image(art)
+        time.sleep(1)
+
 
 def create_image(art):
     image_id = art.get("image_id")
     id = art.get("id")
     r = requests.get(f"https://www.artic.edu/iiif/2/{image_id}/full/843,/0/default.jpg")
+    print(r.status_code)
+    print(r.headers.get("CF-Ray"))
+    print(r.headers.get("Server"))
+    print(r.headers.get("Content-Type"))
+    print(r.text[:500])
     i = Image.open(BytesIO(r.content))
     i.save(f"images/{id}.jpg")
-    time.sleep(1)
+
 
 
 if __name__ == "__main__":
     main()
-          
+
+
+# headers
+# chrome selenium

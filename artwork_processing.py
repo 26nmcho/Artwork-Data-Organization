@@ -180,8 +180,12 @@ def format_description(description):
 if __name__ == "__main__":
     main()
 
-
-# add tracking for errors and conditions
+# A
 # scrape images
 # pandas: date_start, place_of_origine, word count
 # matplotlib / seaborn
+#cleveland scraping pipeline 
+
+# B
+# pick 3 to 4 examples per era (use years) + Classic, impressionism, post-impressionism, contemporary (abstract)
+# annotative capacity for more concreet or classic painting the description is more descriptive 
