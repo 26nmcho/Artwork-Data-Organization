@@ -7,7 +7,7 @@ def read_file():
         collected_data = json.load(read_file)
 
     for artwork in collected_data:
-        image_save 
+        image_save(artwork['id'], artwork['image'])
 
 
 def image_save(name, url):
