@@ -64,8 +64,10 @@ def data_collection(step):
         if data_validation(artwork):
             accepted_artworks.append(artwork)
             artwork_tracker += 1
+            print(f"Artwork Collected: {artwork_tracker}")
 
     write_artwork(accepted_artworks)
+    return accepted_artworks
 
 
 
@@ -108,22 +110,31 @@ def data_validation(artwork):
 def write_artwork(accepted_artworks):
     global artwork_tracker
 
-    if artwork_tracker > 0:
+    if artwork_tracker > 25:
         with open("cleveland_harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
             collected_data = json.load(read_file)
     else:
         collected_data = []
-        
-    collected_data.append(accepted_artworks)
-                        
-    with open("cleveland_harvested_data.json", "w", encoding="utf-8") as write_file:
+            
+    collected_data.extend(accepted_artworks)
+                            
+    with open("cleveland_harvested_data.json", mode = "w", encoding="utf-8") as write_file:
         json.dump(collected_data, write_file, indent=4)
 
 if __name__ == '__main__':
-    results = data_collection(25)
-    print(type(results))
-    print(len(results))
-    print(results[0])
+    while True:
+        data = data_collection(25)
+        if not data:
+            break
+
+    print("No ID:", no_id)
+    print("No Title:", no_title)
+    print("No Description:", no_desc)
+    print("No Early Date:", no_early_date)
+    print("No Late Date:", no_late_date)
+    print("No Creator:", no_creator)
+    print("No Technique:", no_technique)
+    print("No Image:", no_image)
 
     test_artwork = {
     "id": 1,
