@@ -2,12 +2,17 @@ import requests
 from pathlib import Path
 import json
 
-def read_file():
+images_saved = 1
+
+def retrieve_images():
     with open("cleveland_harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
         collected_data = json.load(read_file)
 
     for artwork in collected_data:
         image_save(artwork['id'], artwork['image'])
+        global images_saved
+        images_saved += 1
+        
 
 
 def image_save(name, url):
@@ -22,6 +27,8 @@ def image_save(name, url):
             file.write(response.content)
 
         print(f"Saved: {file_path}")
+        print(f"Total Images Saved:  {images_saved}")
+
 
 if __name__ == "__main__":
-    main()
+    retrieve_images()
