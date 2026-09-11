@@ -12,6 +12,7 @@ no_late_date = 0
 no_creator = 0
 no_technique = 0
 no_image = 0
+no_culture = 0
 
 
 
@@ -24,7 +25,7 @@ def data_collection(step):
             'limit': (step + artwork_tracker),
             'type': 'Painting',
             'skip' : artwork_tracker,
-            'fields' : 'id,title,description,creation_date_earliest,creation_date_latest,creators,technique,type,images,url,share_license_status'
+            'fields' : 'id,title,description,creation_date_earliest,creation_date_latest,creators,technique,culture,type,images,url,share_license_status'
         }
 
     r = requests.get(url, params=params)
@@ -41,6 +42,7 @@ def data_collection(step):
         artwork_date_latest = artwork.get('creation_date_latest')
         artwork_creators = artwork.get('creators')
         artwork_technique = artwork.get('technique')
+        artwork_culture = artwork.get('culture')
         try:
             artwork_image = artwork['images']['web']['url']
         except KeyError:
@@ -58,7 +60,8 @@ def data_collection(step):
             'creation date late' : artwork_date_latest,
             'creators' : creator_list,
             'technique' : artwork_technique,
-            'image' : artwork_image
+            'image' : artwork_image,
+            'culture' : artwork_culture
         }
 
         if data_validation(artwork):
@@ -105,6 +108,10 @@ def data_validation(artwork):
         return_boolean = False
         global no_image
         no_image += 1
+    if artwork['culture'] == None:
+        return_boolean = False
+        global no_culture
+        no_culture += 1
     return return_boolean
 
 def write_artwork(accepted_artworks):
