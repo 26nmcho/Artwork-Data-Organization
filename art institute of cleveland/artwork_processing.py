@@ -153,3 +153,10 @@ if __name__ == '__main__':
     "technique": "Oil on canvas",
     "image": "https://example.com/image.jpg"
     }
+
+
+# share git and drop box all data and code
+# check historical cleveland api
+# docuemntation
+# keep trying to harvest images for chicago
+# pick the right model figure out hte pipeline for prmopt engineering - exploratory
