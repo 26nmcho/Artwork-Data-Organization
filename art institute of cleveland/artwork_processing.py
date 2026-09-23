@@ -1,5 +1,7 @@
 import json
 import requests
+from pathlib import Path
+import image_processing
 
 artwork_tracker = 0
 
@@ -128,8 +130,64 @@ def write_artwork(accepted_artworks):
     with open("cleveland_harvested_data.json", mode = "w", encoding="utf-8") as write_file:
         json.dump(collected_data, write_file, indent=4)
 
+def image_metadata_check():
+
+    try:
+        with open("cleveland_harvested_data.json", mode = "r", encoding = "utf-8-sig") as file:
+            metadata = json.load(file)
+    except FileNotFoundError:
+        print("error: file unavailable")
+        return 
+    except Exception as e:
+        print(e)
+        return
+
+    data_size = len(metadata)
+
+    image_extensions = {".jpg"}
+
+    folder = Path('/Users/noahshomefolder/Desktop/Cleveland Musuem Images')
+
+    image_id = [file.stem for file in folder.iterdir() if file.suffix.lower() in image_extensions]
+
+    data_no_image = []
+    artwork_num = 0
+
+    for artwork in metadata: 
+
+        has_image = False
+        for id in image_id:
+            if id == str(artwork["id"]):
+                has_image = True
+
+        if has_image == False:
+            data_no_image.append(artwork)
+
+        # percentage done
+        artwork_num += 1
+
+        progress = artwork_num / data_size
+
+        print(f"Percentage Checked: {progress:.2f}", end = "\r", flush=True)
+
+
+
+    print()
+
+    for x in data_no_image:
+        print(x["id"])
+
+    return data_no_image
+
+
+# save the missing images found by the image metadata check method
+def fill_images(data_no_image):
+    for artwork in data_no_image:
+        image_processing.image_save(artwork['id'], artwork['image'])
+        print(f"Image Retreived: {artwork["id"]}")
+
 if __name__ == '__main__':
-    while True:
+    '''while True:
         data = data_collection(25)
         if not data:
             break
@@ -152,7 +210,9 @@ if __name__ == '__main__':
     "creators": ["Test Artist"],
     "technique": "Oil on canvas",
     "image": "https://example.com/image.jpg"
-    }
+    }'''
+
+
 
 
 # share git and drop box all data and code
