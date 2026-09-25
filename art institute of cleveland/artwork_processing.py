@@ -212,6 +212,8 @@ if __name__ == '__main__':
     "image": "https://example.com/image.jpg"
     }'''
 
+    image_metadata_check()
+
 
 
 
