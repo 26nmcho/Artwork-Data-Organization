@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import requests
 from pathlib import Path
+import matplotlib.pyplot as plt
 import image_processing
 
 accepted_tracker = 0
@@ -99,6 +100,29 @@ def historical_data_processing():
 
     print(f"How many paintings have the wall description: {walldesc_size}")
     print(f"How many paintings have the digital description: {digitaldesc_size}")
+
+    print(df.describe())
+
+    bar_chart_labels = list(df.columns)
+    values = [(df[column].isna() | df[column].map(lambda x: isinstance(x, list) and len(x) == 0)).sum()
+              for column in bar_chart_labels]
+    total = len(df)
+    pairs = sorted(zip(bar_chart_labels, values), key=lambda pair: pair[1])
+    bar_chart_labels = [pair[0] for pair in pairs]
+    values = [pair[1] for pair in pairs]
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    bars = ax.barh(bar_chart_labels, values, color="#2a78d6")
+    for bar, value in zip(bars, values):
+        ax.text(bar.get_width() + 15, bar.get_y() + bar.get_height() / 2,
+                f"{value} ({value / total:.1%})", va="center", fontsize=9, color="#52514e")
+    ax.set_xlim(0, total)
+    ax.set_xlabel(f"Paintings missing a value (out of {total})")
+    ax.set_title("Missing Values per Column", loc="left")
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.tight_layout()
+    plt.show()
     
 
 
