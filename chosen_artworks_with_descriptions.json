@@ -1,0 +1,335 @@
+[
+    {
+        "id": 138881,
+        "title": "Mural Fragment with Elite Male and Maguey Cactus Leaves",
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/138881.jpg",
+        "generated_description": "This painted plaster fragment presents a richly patterned, monochrome scene rendered in deep red ochre. At center, a highly stylized, profile figure—adorned with an elaborate feathered headdress, ornate earspools and a curling serpent- or scroll-like element—advances across a ground punctuated by vertical motifs and a decorative upper frieze. The artist’s linear economy and flat planes of color emphasize pattern over naturalism: repetitive geometric borders, rhythmic feathering and incised details create a sense of ceremonial costume and motion. Likely part of a larger mural, the panel’s iconography and regalia suggest a ritual or mythic subject associated with status, transformation or cosmological power. Despite surface wear, the composition retains a compelling formality and visual intensity characteristic of pre-Columbian mural painting.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 145925,
+        "title": "Funerary Portrait of a Young Girl",
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/145925.jpg",
+        "generated_description": "This striking panel portrait, painted in the encaustic technique on a thin wooden tablet, presents a young woman with a direct, arresting gaze. Her large, dark eyes and softly modelled face are rendered with warm, lifelike tones; delicate brushwork creates the illusion of skin and cloth while gilt accents—on her lips, jewelry, and the laurel wreath that crowns her braided hair—catch the light. She wears a white tunic beneath a purple mantle, markers of status echoed in the gold earrings and necklace. Combining Roman naturalism in facial modeling with the Egyptian funerary tradition of portrait panels, the image likely served to commemorate identity for the afterlife. The overall effect is intimate and dignified: a personal likeness that preserves both presence and prestige.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 145923,
+        "title": "Funerary Portrait of a Man",
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/145923.jpg",
+        "generated_description": "This fragmentary portrait presents a striking, intimate likeness: a young man rendered with broad, confident strokes and a muted, earthen palette. Large, heavily outlined eyes and a strong brow fix the viewer with an introspective, almost haunted gaze. Warm ochres and siennas model the planes of the face, while soft greens and greys form a worn background that follows the irregular edge of the textile support. The visible weave and areas of paint loss lend the work a palpable sense of age, while the quick, tactile brushwork preserves the immediacy of the sitter’s presence. Reminiscent of funerary portraits from Roman Egypt, the image balances naturalistic detail with stylized emphasis to evoke individual identity, memory, and the persistence of the human gaze across time.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 145924,
+        "title": "Funerary Portrait of a Woman",
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/145924.jpg",
+        "generated_description": "A small, intimate portrait rendered with striking immediacy, this fragment captures a young woman in warm ochres and deep browns. Her large, almond-shaped eyes and pronounced brows meet the viewer with a solemn, direct gaze; delicate highlights on the cheekbones and the pearled earrings punctuate an otherwise muted palette. The artist has modelled the face with confident brushwork that preserves a lifelike volume and subtle individuality, while the rough, frayed edges and hairline cracks in the support speak to the painting’s age. Executed in the naturalistic style associated with Roman‑period Egypt, the work likely functioned as a funerary likeness, intended to assert identity and presence beyond death. Its restrained dignity and tactile surface evoke both intimacy and enduring humanity.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 133012,
+        "title": "The White Path to the Western Paradise across Two Rivers (Niga Byakudō)",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/133012.jpg",
+        "generated_description": "This vertical devotional painting unfolds a Buddhist paradise in layered registers. At the top a central Buddha, haloed in luminous gold, sits flanked by two attendant figures beneath a palace-like pavilion; a graceful arched bridge and serene waterways separate the heavenly realm from the scenes below. In the middle registers pilgrims, boats and ritual figures traverse landscapes, while a dramatic panel of red flames and a fearsome creature suggests trials or demonic obstruction. Lower scenes show pavilions, walkers and everyday life, implying the soul’s journey from the world toward salvation. Executed with delicate line, restrained color and gilded highlights, the composition combines narrative clarity with meditative stillness. The work likely illustrates the Pure Land tradition, offering both consolation and moral instruction through vivid, symbolic imagery.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 125248,
+        "title": "The Coronation of the Virgin with the Trinity",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/125248.jpg",
+        "generated_description": "This luminous panel depicts the Coronation of the Virgin with a delicacy and formality characteristic of late medieval devotional painting. At the center Mary kneels in a serene blue mantle, hands crossed in humility, while God the Father and the resurrected Christ, each haloed and robed in soft pastel tones, lift a filigreed crown above her head. A dove — the Holy Spirit — hovers between them, completing the Trinitarian act. Behind and beneath the central group a host of golden‑haled angels, their red wings and stylized faces forming a shimmering, rhythmic backdrop, amplifies the sacred moment. The gilded ground, flattened space and refined drapery emphasize symbolic meaning over naturalism: a visual testament to Mary’s heavenly exaltation, divine grace, and the ritualized poetry of late Gothic piety.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 156183,
+        "title": "Summer Mountains (after Dong Yuan [active about ad 937-975])",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/156183.jpg",
+        "generated_description": "This vertical hanging scroll presents a quietly monumental mountain landscape rendered in delicate ink on a warm, aged ground. A towering peak fills the right plane, its striated rock faces and clustered pines delineated with fine, rhythmic brushstrokes, while a softer wash recedes into misty valleys on the left. The composition balances vastness and intimacy: steep slopes and distant ridgelines suggest grandeur, while tiny trees, pathways, and a shoreline in the foreground invite close looking. Sparse inscription and red seals at the upper left and lower margins punctuate the scene, anchoring it in the literati tradition. The restrained palette, subtle gradations of ink, and contemplative emptiness evoke a meditative journey through nature, celebrating solitude, endurance, and the refined craft of brush and wash.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 117658,
+        "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/117658.jpg",
+        "generated_description": "This narrow, horizontal panel reads as an object of accumulated time. Rendered in dark, worn layers of paint and gilt trace, the length of the piece is punctuated by a central circular aperture and a scatter of knocks and abrasions that reveal underlying ground and wood. A small applied paper label at one end—handwritten and faded—hints at provenance or prior use; tiny nail holes and a recessed profile along the edges suggest it once served a functional, architectural, or framing purpose. The work’s restrained palette and distressed surface emphasize materiality and history, inviting close inspection. As much about absence as presence, it registers human handling and decay, and prompts reflection on utility, memory, and the quiet poetry of everyday objects transformed by time.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 152250,
+        "title": "Yujo Monogatari Emaki",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/152250.jpg",
+        "generated_description": "This delicate ink drawing exemplifies the classical Japanese narrative aesthetic: spare, assured brushwork and integrated calligraphy form a single pictorial text. Diagonal architectural beams divide the picture plane into overlapping interior chambers, creating a voyeuristic, elevated viewpoint. In the upper left two robed courtiers converse beneath the eaves; in the lower right three long‑haired court ladies sit with bowed heads. Calligraphic passages—probably lines of a tale—cascade across the composition, their graceful kana rhythms echoing the flowing black of the women’s hair. Rendered in subtle sumi on aged paper, the scene balances formal restraint with intimate emotion, suggesting literary exchange, discreet longing, and the layered social codes of the court. The overall effect is lyrical and quietly atmospheric, inviting slow looking and close reading.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 153736,
+        "title": "Pine and Camellias",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/153736.jpg",
+        "generated_description": "This six-panel folding screen presents a study in restraint: a gnarled trunk and a few sinuous branches emerge from a burnished gold ground, their weathered bark rendered in spare, expressive ink strokes. Small clusters of green leaves and pale, quietly painted blossoms provide the sole color accents, their measured placement creating a subtle counterpoint to the sweeping emptiness that dominates the composition. The artist exploits negative space and the seams of the panels to choreograph a gentle rhythm, while variations in brushwork—from dry, textured lines to softer washes—suggest age and tactile presence. Evoking themes of endurance, seasonal renewal, and contemplative silence, the screen exemplifies the refined minimalism of Japanese decorative painting and invites prolonged, meditative viewing.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 97179,
+        "title": "Virgin and Child",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/97179.jpg",
+        "generated_description": "This intimate panel presents the Virgin and Child in the restrained, devotional idiom of late medieval painting. Framed within an octagonal support, the figures sit against a burnished gold field that flattens space and signals the sacred. The Madonna’s pale, oval face and downcast eyes convey quiet tenderness; her blue veil and dark mantle fold in elegant, stylized drapery. The child, haloed and robed in patterned green and rose, clasps a small bird—perhaps a goldfinch, a traditional emblem of Christ’s future Passion—inviting theological reflection within a domestic embrace. Finely incised halos, delicate hands, and subtle modeling of flesh show careful tempera technique, while wear and softened pigments attest to age and long veneration. The overall effect is one of devout intimacy, merging symbolic meaning with human warmth.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 159728,
+        "title": "Washing the Feet (from the Dusty World)",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/159728.jpg",
+        "generated_description": "This vertical landscape exemplifies the classical Chinese shan-shui tradition: a layered panorama of mist-softened mountains receding into the distance above a wooded valley. The foreground presents rocky outcrops and a gently winding stream, drawn with precise, textured brushwork, while clusters of pine and the tucked pavilion suggest human presence in harmonious retreat. Two small figures on a distant ridge emphasize scale and contemplative solitude. The artist balances delicate ink washes with restrained color accents, using dry-brush strokes for tree trunks and fine, calligraphic lines for architectural and topographic detail. An inscription and red seals in the upper right lend a poetic, personal counterpoint. Overall, the composition conveys tranquillity and measured spatial depth, inviting prolonged reflection on nature, solitude, and the literati ideal of withdrawal.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 146035,
+        "title": "Clearing Autumn Mists in the Chu Mountains",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/146035.jpg",
+        "generated_description": "This vertical hanging scroll presents a quietly lyrical mountain landscape executed in the literati manner. Towering, craggy peaks rise through veils of mist, rendered with layered ink washes and finely textured brush strokes that suggest both weight and weathered surface. In the middle ground, a lone pine and a small cluster of cottages appear like islands amid cloud, while a narrow path and a simple arched bridge with tiny human figures link shore and settlement. Lower rocks, a falling stream and grazing animals anchor the scene. Delicate color accents and calligraphic inscription with seals lend a personal, poetic voice. The composition’s use of negative space and graded tonalities cultivates a contemplative mood—an evocation of solitude and harmonious coexistence between people and the vastness of nature.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 86121,
+        "title": "Moonlit Landscape (one of a pair)",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/86121.jpg",
+        "generated_description": "This eight‑panel folding screen presents a spare, atmospheric landscape rendered in delicate monochrome ink washes. Broad, mist‑soaked washes define receding mountain forms while finer, calligraphic brushstrokes articulate clusters of pines, riverside groves, tiny boats and the suggestion of dwellings. The composition exploits negative space and gradations of grey to create an expansive sense of depth and silence; distant peaks dissolve into the mist, close trees retain crispness. The gilt brocade frame heightens the work’s quiet luxury while emphasizing its function as a contemplative interior object. Executed in the restrained idiom of East Asian ink painting, the screen invites reflection on transience, scale, and the harmony between human presence and the vast natural world. The overall impression is one of serene, meditative stillness.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 111479,
+        "title": "The Miracles of Saint James the Greater",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/111479.jpg",
+        "generated_description": "A stately, theatrical composition unfolds before a classical colonnade: a pilgrim-like figure in a blue robe and russet cloak stands at center, staff in hand, his raised arm arresting the eye. Around him a chorus of figures—an elderly man recoiling on a bed, a prostrate supplicant clutching an open book, anxious onlookers and a nursing woman with a child—react with a mixture of awe and relief. The painter balances cool hymnal blues with warm ochres and crimsons, rendering drapery and flesh with a polished, nearly sculptural touch. Architectural elements and a balcony of spectators provide depth, while expressive gestures and focused light heighten the sense of a miraculous intervention. The scene evokes themes of charity, faith, and communal witness, captured in an elegant, late-Baroque/Neoclassical idiom.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 130497,
+        "title": "Fish and Rocks",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/130497.jpg",
+        "generated_description": "This long handscroll presents a spare, masterful study in ink: a few vividly suggested fish swim amid abstracted rocks and washes, their streamlined bodies and flicking tails rendered in economical, calligraphic strokes. The artist balances dark, saturated pools of ink with airy, unpainted paper, creating a sense of water and movement through contrast and negative space. Dry-brush textures and exuberant splashes articulate stone and current, while columns of inscription and red collector seals thread text and image into a single, literati composition. The work’s economy and spontaneity suggest meditative observation rather than detailed representation, inviting close, sequential viewing. At once lively and serene, the scroll celebrates brush technique, the harmony of nature, and the contemplative intimacy of the handscroll format.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 146193,
+        "title": "Girls Spraying Each Other at Holi",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/146193.jpg",
+        "generated_description": "This luminous miniature, rendered in the fine-line manner of northern Indian court painting, captures a boisterous women’s celebration — likely the spring festival of Holi. A closely knit ensemble of figures occupies a terraced garden: singers and drummers form a ring while others anoint faces with colored powder and water from jars and trays. The artist balances animated gesture and patterned costume — saffron, vermilion, rose and emerald fields — against a flattened, jewel-like space. Finely drawn jewelry, diaphanous veils and the rhythmic repetition of tambourines and hands emphasize communal intimacy and movement. Beyond its festive surface, the scene evokes themes of renewal, female sociability, and ritual pleasure, made vivid through delicate brushwork, saturated pigment and a tightly organized, theatrical composition.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 135483,
+        "title": "Ruins in a Rocky Landscape",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/135483.jpg",
+        "generated_description": "This painting presents an idealized classical landscape in which monumental geology and ruined architecture coexist with quiet rural life. A dark, craggy cliff rises at left, its shadowed mass contrasting with a sunlit promontory at center-right where a ring of Ionic columns and a stand of umbrella pines sit like a memory of antiquity. Figures and cattle, rendered on a small scale, populate the foreground: shepherds rest by a pool, animals drink, and a lone traveler leans on his staff. The calm water reflects the warm, late-day light that suffuses the scene, while atmospheric perspective gently recedes into distant hills. Through its measured composition, soft tonal harmonies, and thoughtful use of scale, the work evokes a contemplative mood—an elegy to nature’s permanence and the transience of human constructions.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 161785,
+        "title": "Portrait of Sardar Singh (Son of Savant Singh, 1730–68)",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/161785.jpg",
+        "generated_description": "A serene tableau rendered in the delicate idiom of North Indian miniature painting, this work places a haloed princely figure upon an elevated terrace, attended by musicians and elegantly dressed women. The composition balances a carefully observed foreground of patterned architecture and flowering beds against a stylized middle ground of figures, and a lyrical background of orange-hued hills pierced by a central waterfall. Finely outlined forms, jewel-like colors and sparing gold accents emphasize the pageant of courtly life, while flattened spatial planes and rhythmic repetition of robes and foliage create a meditative harmony. The falling water and clustered palms suggest a cultivated paradise, framing a moment of homage or leisure that invites reflection on power, ritual, and the aesthetic pleasures of an idealized landscape.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 314366,
+        "title": "The Morning Toilette",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/314366.jpg",
+        "generated_description": "This intimate miniature depicts a central woman, elevated on a carved platform, attended by four women as she arranges her hair and garments. Rendered in fine, calligraphic lines and luminous pigments, the composition balances a restrained peach ground beneath a rising sun, suggesting dawn or a ceremonial morning. Richly patterned textiles, delicate jewelry and the attendant’s mirror and trays of bowls and flowers emphasize ritual care and the aesthetics of feminine adornment. The figures are depicted in elegant profile, their gestures measured and attentive, creating a quiet choreography of service and display. Foreground water-jars and flowering plants anchor the scene in a domestic garden. The painting’s refined detail and spare spatial framing convey both the private intimacy of preparation and an idealized courtly grace.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 96328,
+        "title": "Portrait of Benjamin West",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/96328.jpg",
+        "generated_description": "This intimate oil portrait presents an elderly gentleman in a closely cropped bust format, his pale, bald head and keen eyes set against a warm, russet ground. The artist models the face with restrained brushwork and soft, directional light that reveals fine lines and a quietly determined expression. A white cravat and a blue silk scarf punctuate the otherwise dark, enveloping cloak, introducing a cool highlight that balances the background’s warmth. The composition’s simplicity focuses attention on character rather than circumstance, suggesting contemplation, moral steadiness, and social refinement. Painted with a straightforward realism, the work invites the viewer to consider the sitter’s inner life — a study of temperament and presence more than of fashion or rank.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 162195,
+        "title": "Aurora and Cephalus",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/162195.jpg",
+        "generated_description": "A delicate evocation of love and ascent, this painting presents two entwined, nearly nude figures borne aloft on a swirl of translucent drapery and cloud. The composition rises diagonally from lower left to upper right, guiding the eye toward a soft halo of light that suffuses the lovers’ skin with warm pinks and pearly tones. A small winged putto accompanies them, emphasizing the mythic register and lending a playful counterpoint to the tender, almost reverent embrace. The artist’s careful modeling, polished surface, and subtle chiaroscuro recall the academic and neoclassical manner tempered by Romantic feeling: sensuality is restrained by a mood of spiritual elevation. Read together, form, light and gesture suggest union, transport, and the transformative power of passion.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 96263,
+        "title": "Portrait of Jean Terford David",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/96263.jpg",
+        "generated_description": "This oil portrait presents a young military officer in a poised three-quarter pose, his gaze turned confidently to the left. The sitter’s dark coat, trimmed with a gleaming silver epaulette and a richly textured red sash, contrasts with the luminous flesh tones of his face and the crisp white of his cravat. The artist renders hair, fabric and metal with refined brushwork—soft, curled locks and the polished hilt at his hip are depicted with equal care—while a muted, smoky background heightens the sense of theatre. The composition balances youthful elegance and disciplined authority, suggesting ambition tempered by refinement. Viewed as a whole, the painting communicates personal pride and public duty, capturing both the individual’s character and the idealized image of military gentility.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 159270,
+        "title": "The Slotskirken of Christiansborg, Copenhagen",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/159270.jpg",
+        "generated_description": "This finely observed interior presents a cool, measured vision of sacred architecture. Two dark, fluted columns in the foreground frame a symmetrically composed nave whose coffered dome, ornate frieze and Corinthian columns recede toward a modest altar crowned by a gilded cross. The artist’s restrained palette of warm ochres and soft stone whites, pierced by pale daylight from the dome and side windows, gives the space a calm, luminous clarity. Small, quietly posed figures—worshippers and passersby—establish human scale and a contemplative mood. Executed in the tradition of architectural interiors and the neoclassical revival, the work emphasizes proportion, ornament and perspective. It reads as a meditation on order and devotion: the grandeur of built form tempered by intimate, everyday acts of piety.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 150017,
+        "title": "Attributes of Music",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/150017.jpg",
+        "generated_description": "A restrained, contemplative still life centers on a pear-shaped stringed instrument laid across a scatter of folded and torn music manuscripts. A wooden recorder lies in the foreground, its warm brown tones echoed by the instrument’s polished body. A red scarf threads through the composition and a single pale rose rests near the flute, infusing the scene with a touch of quiet sentiment. The artist relies on strong contrasts of light and deep shadow to model forms and emphasize texture—the sheen of varnish, the fibrous edges of paper, the softness of fabric—while a muted palette creates an atmosphere of hush. The arrangement suggests absence and remembrance: music paused, performance concluded, and beauty whose pleasures are fleeting, inviting a reflective, almost elegiac response.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 135480,
+        "title": "The Apple Seller",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/135480.jpg",
+        "generated_description": "A sunlit scene unfolds with the easy intimacy of a fleeting memory. In the foreground a woman leans with a basket of fruit while three children—two seated, one kneeling—receive her offerings; a small dog looks on. The composition is anchored by a diagonal path and framed by leafy trees, their foliage rendered in shimmering greens and blues. The artist’s feathery, rhythmic brushstrokes blur contours and melt forms into a warm chorus of pinks, ochres and cerulean, privileging color and light over precise detail. Hats, ruffles and profuse skirts suggest a rural, late‑summer moment of shared labor and leisure. The painting celebrates the tenderness of everyday life: an intimate vignette of childhood, community and the gentle rhythms of seasonal work.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 150079,
+        "title": "Still Life with Asparagus",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/150079.jpg",
+        "generated_description": "Rendered with quiet restraint, this still life centers on a generous bundle of white asparagus, bound and presented on a low earthenware dish beside a dark, glossy pitcher. The artist deploys a limited, warm palette and controlled chiaroscuro to set the pale, almost luminous spears against a deep, shadowed background, giving them an almost sculptural presence. Careful brushwork delineates the fibrous stalks and the tender, purple-tinted tips, while the reflected highlights on the jug and plate introduce subtle vitality. Utensils arranged at the left edge and a single broken tip on the tabletop suggest recent handling and the intimacy of a domestic moment. The composition celebrates seasonality and modest abundance, transforming everyday produce into an object of contemplative beauty.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 157104,
+        "title": "The Seine at Bas-Meudon",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/157104.jpg",
+        "generated_description": "A wide, low vantage opens onto a tranquil riverside scene whose compositional heart is an expansive sky. Broad, textured brushstrokes describe drifting clouds and a cool, diffused light that suffuses the landscape. Below, a meandering towpath leads the eye from a grassy foreground past small boats and resting figures to a cluster of modest buildings and a horse-drawn cart at the right — everyday details that anchor the scene in rural life. Reflections in the calm water and a solitary tall tree at left provide vertical counterpoints to the horizontal sweep, while the looseness of handling conveys immediacy and atmosphere rather than precise detail. The painting quietly celebrates the rhythms of country life and the ephemeral qualities of light and weather.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 144496,
+        "title": "Still Life with Cantaloupe",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/144496.jpg",
+        "generated_description": "This meticulously composed still life presents a quiet abundance: a reticulated melon anchors the center, flanked by velvet peaches, a golden pear, clusters of green and black grapes, raspberries, and scattered nuts upon a fringed white cloth. A glass goblet and a bowl of fruit recede into a warm, shadowed background. The artist’s precise, polished brushwork renders textures with arresting fidelity — the melon’s netted surface, the peaches’ downy flesh, the grapes’ glossy skin and the glass’s reflective plane — creating a tactile realism in the manner of the Old Master tradition. The balanced arrangement of rounded forms and subtle chiaroscuro celebrates seasonal plenty while quietly suggesting the ephemerality of sensory pleasures, inviting contemplative appreciation of color, form and transience.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 86399,
+        "title": "Orchids and Rocks",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/86399.jpg",
+        "generated_description": "Rendered across eight narrow panels, this folding screen presents a sequence of delicate ink studies on warm, aged paper. Each panel isolates a sprig of orchid-like foliage, grasses and craggy rock, executed with a literati economy of line: lively, gestural strokes alternate with pale washes and empty space. Vertical calligraphic inscriptions and red seals punctuate the compositions, serving both as commentary and visual counterpoint. Mounted in muted brocade, the restrained palette and subtle variations in brush pressure create a quiet rhythmic flow from left to right. Evoking themes of refinement, resilience and poetic solitude, the work exemplifies East Asian scholar-painting aesthetics—an elegant meditation on nature that invites slow looking and contemplation.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 125249,
+        "title": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/125249.jpg",
+        "generated_description": "A row of gnarled trees dominates this scene, their contorted trunks and sweeping branches rendered in rhythmic, energetic strokes. The artist builds texture with layered, directional brushwork: blues and greys model the bark, while warm ochres and russets suggest autumn foliage. In the foreground, heaps of pale stones and a narrow, water-filled gutter lead the eye along the roadside toward a distant house with green shutters and a lone gas lamp. Small human figures — a woman carrying a basket and two passersby — provide a quiet human scale, hinting at everyday village life amid the grandeur of nature. The composition balances intimacy and movement, evoking both the resilience of the landscape and the transience of human presence in a vividly charged, post‑Impressionist manner.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 135299,
+        "title": "Adeline Ravoux",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/135299.jpg",
+        "generated_description": "A small, intimate portrait arrestingly balances exactitude and painterly energy. A young woman is shown in profile against a near-black ground, her pale features and turquoise dress articulated in thick, impasto strokes. The paint is applied with confident, directional marks that model the cheek and brow while allowing the canvas’s texture to remain visible, lending the face a sculptural, almost mask-like quality. To the right, ivory roses and leafy suggestions are rendered in spirited, gestural swirls that echo the sitter’s hair ribbon and collar, creating a subtle visual dialogue between figure and flora. The overall effect is cool and contemplative: an encounter between youthful reserve and the artist’s expressive handling of color and surface, inviting reflection on identity and quiet observation.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 125104,
+        "title": "Frieze of Dancers",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/125104.jpg",
+        "generated_description": "A narrow, panoramic composition captures a quiet, backstage moment among five dancers preparing for practice. Rendered in soft, muted tones of white, ochre and sage, the figures are sketched with spare, economical lines and gentle smudges that suggest motion and the tactile quality of fabric. Each dancer is absorbed in a small chore — tying slippers, bending to stretch, sitting in repose — their gestures forming a rhythm that moves from left to right across the canvas. The cropped framing and slightly elevated viewpoint create an intimate, almost voyeuristic impression, while the subdued palette and diffuse modeling lend a melancholy tenderness. The work emphasizes rehearsal as labor and ritual, revealing the ordinary, disciplined gestures that underlie the spectacle of performance.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 120286,
+        "title": "Roses in a Vase",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/120286.jpg",
+        "generated_description": "A low, rounded green vase supports a generous bouquet of roses painted with sensuous, painterly brushstrokes. Cream, blush and deep crimson blooms emerge from a band of dark green foliage against a warm, ochre background; highlights and thickly worked petals catch the eye while edges dissolve into the ambient atmosphere. A few fallen petals on the table reinforce the sense of fleeting bloom. The handling privileges color, light and texture over linear precision, creating an intimate, tactile impression of the flowers’ form and scent. Quiet and domestic yet richly evocative, the work meditates on the transience of beauty and the pleasures of everyday luxury, inviting prolonged visual attention to its lush surfaces and subtle tonal harmonies.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 126769,
+        "title": "Fight between a Tiger and a Buffalo",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/126769.jpg",
+        "generated_description": "A compact, jewel-like tableau of tropical luxuriance, this painting draws the eye into a densely patterned thicket where foliage becomes both backdrop and ornament. Large, flattened leaves and repetitive fronds are rendered with patient, almost naive precision in a cool palette of greens, punctuated by pale blossoms and bright-orange fruit. At the center, a striped tiger crouches over a fallen gray beast, its taut body and alert gaze introducing a sudden, animal tension into the otherwise decorative stillness. The shallow space and meticulous surface detail give the scene a dreamlike, mythic quality: nature is abundant, stylized and slightly uncanny. The work suggests an encounter with the wild—simultaneously fanciful and threatening—and invites reflection on the spectacle of the exotic and the primal forces beneath calm surfaces.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 149587,
+        "title": "Souvenir of an \"International Ball\" (Portrait of Miss Kathleen Bruce)",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/149587.jpg",
+        "generated_description": "Reclining on a low chaise in a dimly lit interior, the subject of this portrait occupies the canvas with relaxed confidence. A sumptuous pink gown, layered with ruffles and punctuated by small black bows, billows across the foreground; the artist renders its silks and tulle with fluid, expressive brushwork that contrasts with the smooth modeling of the sitter’s luminous skin. She holds a folded fan and a small wreath of flowers—props that suggest both private leisure and the transience of beauty—while her half‑smile and sideways glance convey a quietly flirtatious reserve. Deep greens and burnished browns of the background frame the figure and heighten the painting’s intimate mood. The composition’s diagonal flow and the tactile handling of materials make this an evocative study of elegance, personality, and refined domestic repose.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 136510,
+        "title": "Water Lilies (Agapanthus)",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/136510.jpg",
+        "generated_description": "A broad, horizontal expanse of water unfurls across the canvas, its surface rendered in shimmering washes of violet, green and dusky blue. Scattered, oval lily pads float like drifting punctuation marks, while cloudlike reflections and delicate, broken brushstrokes dissolve the boundary between sky and pond. The artist’s late-Impressionist hand favors color and atmosphere over strict description: layered strokes and subtle modulations create a sense of depth and gentle movement without a clear horizon. The work invites a quiet, contemplative response — an immersion in light, time and the mutable moods of nature. At once intimate and vast, the scene suggests meditation on transience and memory, where form softens into color and the ordinary becomes luminous.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    }
+]
