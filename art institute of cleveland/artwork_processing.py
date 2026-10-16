@@ -1,9 +1,11 @@
 import json
+import pandas as pd
 import requests
 from pathlib import Path
 import image_processing
 
-artwork_tracker = 0
+accepted_tracker = 0
+total_tracker = 0
 
 # trackers
 no_id = 0
@@ -17,22 +19,26 @@ no_image = 0
 no_culture = 0
 
 
-
+pd.set_option('display.expand_frame_repr', False)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_colwidth', 20)
 
 def data_collection(step):
-    global artwork_tracker
+    global accepted_tracker
+    global total_tracker
     url = "https://openaccess-api.clevelandart.org/api/artworks"
     params = {
             'has_image': 1,
-            'limit': (step + artwork_tracker),
+            'limit': step,
             'type': 'Painting',
-            'skip' : artwork_tracker,
+            'skip' : total_tracker,
             'fields' : 'id,title,description,creation_date_earliest,creation_date_latest,creators,technique,culture,type,images,url,share_license_status'
         }
 
     r = requests.get(url, params=params)
 
     data = r.json()
+    total_tracker += len(data['data'])
 
     accepted_artworks = []
 
@@ -68,12 +74,32 @@ def data_collection(step):
 
         if data_validation(artwork):
             accepted_artworks.append(artwork)
-            artwork_tracker += 1
-            print(f"Artwork Collected: {artwork_tracker}")
+            accepted_tracker += 1
+            print(f"Artwork Collected: {accepted_tracker}")
 
     write_artwork(accepted_artworks)
     return accepted_artworks
 
+def historical_data_processing():
+    with open("cleveland_historical_api.json", "r", encoding="utf-8-sig") as file:
+            data = json.load(file)
+    
+    df = pd.DataFrame(data)
+    print(df.head(5))
+
+    df = df[(df['type'] == 'Painting') & ((df['digital_description'].notna()) | (df['wall_description'].notna())) & (df["images"].notna())]
+    print(df.shape)
+
+    df = df.filter(["id","title","creation_date", "creation_date_earliest","creation_date_latest","creators","culture",'technique',"type","inscriptions","wall_description","digital_description"])
+    print(df.shape)
+    print(df.head(8))
+
+    walldesc_size = df["wall_description"].count()
+    digitaldesc_size = df["digital_description"].count()
+
+    print(f"How many paintings have the wall description: {walldesc_size}")
+    print(f"How many paintings have the digital description: {digitaldesc_size}")
+    
 
 
 def data_validation(artwork):
@@ -117,9 +143,9 @@ def data_validation(artwork):
     return return_boolean
 
 def write_artwork(accepted_artworks):
-    global artwork_tracker
+    global accepted_tracker
 
-    if artwork_tracker > 25:
+    if accepted_tracker > len(accepted_artworks):
         with open("cleveland_harvested_data.json", mode="r",encoding="utf-8-sig") as read_file:
             collected_data = json.load(read_file)
     else:
@@ -188,8 +214,9 @@ def fill_images(data_no_image):
 
 if __name__ == '__main__':
     '''while True:
-        data = data_collection(25)
-        if not data:
+        previous_total = total_tracker
+        data_collection(25)
+        if total_tracker == previous_total:
             break
 
     print("No ID:", no_id)
@@ -200,6 +227,7 @@ if __name__ == '__main__':
     print("No Creator:", no_creator)
     print("No Technique:", no_technique)
     print("No Image:", no_image)
+    print("No Culture:", no_culture)
 
     test_artwork = {
     "id": 1,
@@ -211,8 +239,9 @@ if __name__ == '__main__':
     "technique": "Oil on canvas",
     "image": "https://example.com/image.jpg"
     }'''
+    historical_data_processing()
 
-    image_metadata_check()
+   ## image_metadata_check()
 
 
 

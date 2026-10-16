@@ -6,9 +6,9 @@ import select
 from pathlib import Path
 
 
-FOLDER = Path("/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago 4")
+FOLDER = Path("/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago 5")
 
-SKIPPED_FILE = Path("skipped_artworks.json")
+SKIPPED_FILE = Path("skipped_artworks_second_round.json")
 
 
 def save_skipped_artworks(skipped_artworks):
@@ -64,7 +64,7 @@ def wait_for_new_file(folder, old_files):
 def create_file():
 
     with open(
-        "chicago_harvested_data.json",
+        "skipped_artworks.json",
         "r",
         encoding="utf-8-sig"
     ) as file:
@@ -88,7 +88,7 @@ def create_file():
     else:
         skipped_artworks = []
 
-    START_AT = 1005
+    START_AT = 0
 
     for i, art in enumerate(data[START_AT:], start=START_AT):
 
@@ -121,7 +121,7 @@ def create_file():
 
         image_url = (
             f"https://www.artic.edu/iiif/2/"
-            f"{image_id}/full/843,/0/default.jpg"
+            f"{image_id}/full/200,/0/default.jpg"
         )
 
         webbrowser.open(
