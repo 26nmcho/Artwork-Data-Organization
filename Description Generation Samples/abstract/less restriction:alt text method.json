@@ -1,0 +1,47 @@
+[
+    {
+        "id": 143278,
+        "title": "Composition with Red, Yellow, and Blue",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/143278.jpg",
+        "generated_description": "Square canvas divided by a grid of flat, slightly irregular black lines into a spare, geometric composition. Most of the surface is a large off‑white field in the center. At the top left a small vivid red square sits against a thin black horizontal band; a narrow white column runs down the left edge beneath it. Along the bottom, centered left, a short bright blue rectangle rests within a low black band. On the right edge a slim vertical yellow strip punctuates the composition. The black lines are thick and hand‑painted, with visible brush texture and soft edges; the white areas show faint brushstrokes and a slightly warm, creamy tone. The overall effect is calm, balanced, and rigorously ordered, emphasizing color accents against open white space.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 167456,
+        "title": "Rock at Sea",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/167456.jpg",
+        "generated_description": "A moody, stylized seascape dominated by a towering, blocky cliff at center, rising from a tangle of rounded boulders in the foreground. The composition uses layered, flat planes of deep blues, teals, purples and hints of emerald green, with stippled and brushed textures that suggest wet rock and foaming water. Wisps of pale, circular cloud-like spray curl around the cliff and pool between stones, while thin, darker bands cross a luminous green sky where a partially obscured orb (sun or moon) sits near the upper right. The overall impression is cool and otherworldly: imagine the rough coolness of stone under hand, the damp mist on your face, and a distant low rumble of waves. Orientation: sky at top, cliff midframe, rocky shore at bottom.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 164630,
+        "title": "Night Café",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/164630.jpg",
+        "generated_description": "A richly textured cubist still life fills the canvas. At center, a low table holds a scalloped fruit bowl brimming with round fruits and leafy forms; beside it a tall green bottle rises above the arrangement. Angular planes and overlapping shapes break the scene into collage-like fragments: folded napkins or cloth with blue grid and red-dot patterns, a small cup or bowl, and dark curved forms that suggest handles or drapery. Behind the table a patchwork background alternates deep green, slate blue, and charcoal blocks, with a pale cloud-like shape and a round yellow moon or lamp at upper right. A vertical red curtain frames the right edge, balancing a darker opening or window at left. The overall effect is layered, rhythmic, and deliberately fractured rather than realistic.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 135420,
+        "title": "Morning Glory with Black",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/135420.jpg",
+        "generated_description": "A close-up, almost magnified view of a single pale flower fills the frame. Soft, overlapping white petals curve outward in broad, sculptural shapes, their edges and folds defined by gentle grey and blue shadows. Near the center a whisper of pale green pools around a tiny, rounded stamen, the visual focus toward which the petals quietly radiate. The lower edge of the image is cut by a deep, velvety black curve that anchors the composition and heightens the luminous whiteness above. The surface reads smooth and matte, the tones subtle and refined, creating a calm, meditative mood. Overall the image emphasizes form, light, and texture more than botanical detail, offering an intimate, abstracted study of a flower’s inward architecture.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 149112,
+        "title": "Church Street El",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/149112.jpg",
+        "generated_description": "High above a quiet city courtyard, the image presents a bird’s-eye view made of flat, crisp geometric planes. At center a large pale-pink wall catches sunlight; to its left and right rise narrow cream and beige facades. Deep blue-black shadows form a heavy silhouette across the lower third, creating a strong foreground bar. Near the lower left sits a tiny, boxy rooftop with a bright red slanted top and a small gray annex. At upper right a long, slanted band of parallel stripes—suggesting a roof or roadway—cuts diagonally down toward the scene. The painting emphasizes hard angles, smooth color fields and high contrast between sunlit surfaces and dense shadow, evoking the urban heat and quiet stillness of a city paused under midday light.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    }
+]

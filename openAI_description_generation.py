@@ -2,20 +2,21 @@ import base64
 import json
 import mimetypes
 from pathlib import Path
+from dotenv import load_dotenv
 from openai import OpenAI
 
+load_dotenv(Path(__file__).parent / ".env")  # loads OPENAI_API_KEY
+
 # classical only has 4, modern only has 3, contemporary has none
+# abstract has 5, but only the Mondrian is fully abstract (the rest are near-abstract)
 
 MODEL = "gpt-5-mini"
 OUTPUT_FILE = Path(__file__).parent / "chosen_artworks_with_descriptions.json"
 
 # TODO: edit the prompt
 PROMPT = (
-    "You are a museum curator tasked with writing a description of the "
-    "artwork provided. Describe the painting in a clear, detailed, and "
-    "engaging manner, considering its visual elements, artistic style, "
-    "possible meanings, and overall impression. Write approximately "
-    "100–150 words in a natural, museum-style tone."
+    "Write an alternative text, annotation of the provided image supposedly for a blind/low vision group"
+    "make the description around 100-150 words long."
 )
 
 client = OpenAI()  # reads OPENAI_API_KEY from your environment
@@ -271,6 +272,36 @@ artworks = [
         "title": "Water Lilies (Agapanthus)",
         "era": "modern",
         "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/136510.jpg"
+    },
+    {
+        "id": 143278,
+        "title": "Composition with Red, Yellow, and Blue",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/143278.jpg"
+    },
+    {
+        "id": 167456,
+        "title": "Rock at Sea",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/167456.jpg"
+    },
+    {
+        "id": 164630,
+        "title": "Night Café",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/164630.jpg"
+    },
+    {
+        "id": 135420,
+        "title": "Morning Glory with Black",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/135420.jpg"
+    },
+    {
+        "id": 149112,
+        "title": "Church Street El",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/Cleveland Musuem Images/149112.jpg"
     },
 ]
 
