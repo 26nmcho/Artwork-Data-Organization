@@ -1,61 +1,34 @@
 # Artwork data: every stat so far
 
-Numbers last calculated November 6, 2026. Everything our scripts have calculated so far, all in one spot. Nothing fancy.
+## Overview
 
-**Want to change something?** Edit `output/statistics_report.md`, then run `python3 statistics_report.py` to rebuild this PDF. Your edits stick unless you run it with `--recalculate`, which redoes the numbers and saves your old version as a `.bak` file.
-
-## The quick version
-
-| Dataset | Paintings | Unique IDs | Usable | Avg words |
+| Dataset | Paintings | Unique IDs | Passed script filter | Avg words (filtered) |
 |---|---|---|---|---|
 | Chicago | 1,132 | 1,132 | 1,064 | 131.3 |
-| Cleveland, new API | 2,339 | 2,180 | 2,339 | 91.7 |
-| Cleveland, old API | 4,234 | 4,234 | 1,443 | 109.5 |
+| Cleveland, new API | 2,338 | 2,179 | 2,338 | 91.7 |
+| Cleveland, old API | 4,233 | 4,233 | 1,442 | 109.5 |
 
-"Usable" means it passed that script's filter, and the average word count is for that group. The new API pull only kept complete records in the first place, so all of its rows count.
+## Chicago
 
-## Art Institute of Chicago
+### Original scrape
 
-### The original scrape
+Accepted: **1,189** files
 
-From `artwork_processing.py`. Heads up: the missing-field counts stop at the first thing missing, so one artwork only ever gets counted once.
 
-| Count | Files |
-|---|---|
-| Scanned | 134,079 |
-| Accepted | 1,189 |
-| Rejected | 132,890 |
-| Errors | 1 |
-| No ID | 0 |
-| No title | 1 |
-| No description | 121,036 |
-| No short description | 12,308 |
-| No image ID | 1 |
-| No artwork type | 0 |
-| Not a painting | 127,469 |
+### Paintings with a description, date, and place
 
-### After image hunting and cleaning
-
-| Count | Value |
-|---|---|
-| Paintings left in the dataset | 1,132 |
-| Unique IDs | 1,132 |
-| Skipped in round one | 77 |
-| Skipped in round two | 60 |
-| Second-round skips still in the dataset | 0 |
-| Paintings with a local .jpg | 1,075 |
-| Have a description, date, and place of origin | 1,064 |
-
-Everything below uses that last group, same as `data-visualization.py`.
-
-### Word counts and dates
+#### Word counts and dates
 
 | What | Count | Mean | Std | Min | 25% | Median | 75% | Max |
 |---|---|---|---|---|---|---|---|---|
 | Description words | 1,064 | 131.3 | 71.1 | 19 | 98 | 113 | 138 | 974 |
 | Start year | 1,064 | 1823.9 | 187.2 | -1069 | 1764 | 1890 | 1938.25 | 2020 |
 
-### Top 10 places of origin
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/chicago_dates.png)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/chicago_words.png)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/chicago_date_vs_words.png)
+
+#### Top 10 places of origin
 
 | Place | Paintings |
 |---|---|
@@ -70,7 +43,9 @@ Everything below uses that last group, same as `data-visualization.py`.
 | England | 21 |
 | Flanders | 20 |
 
-### Paintings per era
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/chicago_origins.png)
+
+#### Paintings per era
 
 | Era | Paintings |
 |---|---|
@@ -84,55 +59,39 @@ Everything below uses that last group, same as `data-visualization.py`.
 | modern | 335 |
 | contemporary | 117 |
 
-## Cleveland: new API (`cleveland_harvested_data.json`)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/chicago_eras.png)
 
-From `cleveland_statistics.py` and `image_metadata_check()`. These count every row, so the duplicates are still in here.
+## Cleveland
+
+### New API (`cleveland_harvested_data.json`)
 
 | Count | Value |
 |---|---|
-| Rows | 2,339 |
+| Rows | 2,338 |
 | Duplicate IDs | 159 |
-| Unique IDs | 2,180 |
+| Unique IDs | 2,179 |
 | Unique IDs with no local image | 0 |
 
-### Missing data and types per column
-
-| Column | Type | Null | Empty text | Empty list | Zeros |
-|---|---|---|---|---|---|
-| id | int | 0 | 0 | 0 | 0 |
-| title | str | 0 | 0 | 0 | 0 |
-| description | str | 0 | 0 | 0 | 0 |
-| creation date early | int | 0 | 0 | 0 | 0 |
-| creation date late | int | 0 | 0 | 0 | 0 |
-| creators | list | 0 | 0 | 963 | 0 |
-| technique | str | 0 | 0 | 0 | 0 |
-| image | str | 0 | 0 | 0 | 0 |
-| culture | list | 0 | 0 | 12 | 0 |
-
-Note: the empty-string, zero, and null lines in `missing_data_check` use `.sum()` on the matching values and don't really count them, so they're counted properly here.
-
-### Word counts and dates
+#### Word counts and dates
 
 | What | Count | Mean | Std | Min | 25% | Median | 75% | Max |
 |---|---|---|---|---|---|---|---|---|
-| Description words | 2,339 | 91.7 | 43.0 | 1 | 62 | 87 | 108 | 507 |
-| Earliest year | 2,339 | 1631.1 | 210.9 | -300 | 1555 | 1650 | 1788 | 1949 |
+| Description words | 2,338 | 91.7 | 43.0 | 1 | 62 | 87 | 108 | 507 |
+| Earliest year | 2,338 | 1631.3 | 210.7 | -300 | 1555 | 1650 | 1788 | 1949 |
 
-## Cleveland: old API (`cleveland_historical_api.json`)
-
-From `historical_data_processing()` and `cleveland_visualization.py`.
+### Old API (`cleveland_historical_api.json`)
 
 | Count | Value |
 |---|---|
-| All artworks | 61,792 |
-| Paintings | 4,234 |
-| Paintings with an image and a wall or digital description | 1,443 |
+| All artworks | 61,791 |
+| Paintings | 4,233 |
+| Paintings with an image and a wall or digital description | 1,442 |
 | ...with a wall description | 1,402 |
-| ...with a digital description | 120 |
-| Paintings with a description, date, and image | 1,443 |
+| ...with a digital description | 119 |
+| Paintings with a description, date, and image | 1,442 |
 | Descriptions with HTML tags | 235 |
 
-### Missing values per column (out of 1,443)
+#### Missing values per column (out of 1,442)
 
 | Column | Missing | Percent |
 |---|---|---|
@@ -144,35 +103,40 @@ From `historical_data_processing()` and `cleveland_visualization.py`.
 | technique | 0 | 0.0% |
 | type | 0 | 0.0% |
 | culture | 6 | 0.4% |
-| wall_description | 41 | 2.8% |
-| creators | 366 | 25.4% |
-| inscriptions | 985 | 68.3% |
+| wall_description | 40 | 2.8% |
+| creators | 365 | 25.3% |
+| inscriptions | 984 | 68.2% |
 | digital_description | 1,323 | 91.7% |
 
-### Number summary for that same group
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_missing.png)
+
+#### Number summary (image + wall or digital description)
 
 | What | Count | Mean | Std | Min | 25% | Median | 75% | Max |
 |---|---|---|---|---|---|---|---|---|
-| ID | 1,443 | 145947.2 | 29603.3 | 78982 | 135914 | 148358 | 154864.5 | 315934 |
-| Earliest year | 1,443 | 1653.1 | 187.7 | 25 | 1555 | 1695 | 1800 | 1915 |
-| Latest year | 1,443 | 1683.5 | 182.5 | 37 | 1595 | 1716 | 1817.5 | 1940 |
+| ID | 1,442 | 145966.8 | 29604.2 | 78982 | 136016.5 | 148358.5 | 154913.25 | 315934 |
+| Earliest year | 1,442 | 1653.5 | 187.2 | 25 | 1555 | 1695 | 1800 | 1915 |
+| Latest year | 1,442 | 1683.9 | 181.9 | 37 | 1595 | 1716 | 1817.75 | 1940 |
 
-Everything below uses the description, date, and image group. HTML tags get removed before counting words.
-
-### Word counts and dates
+#### Word counts and dates (description + date + image, HTML removed)
 
 | What | Count | Mean | Std | Min | 25% | Median | 75% | Max |
 |---|---|---|---|---|---|---|---|---|
-| Description words | 1,443 | 109.5 | 66.9 | 1 | 70 | 99 | 132 | 559 |
-| Start year | 1,443 | 1653.1 | 187.7 | 25 | 1555 | 1695 | 1800 | 1915 |
-| Date range (years) | 1,443 | 30.5 | 39.6 | 0 | 3 | 10 | 50 | 299 |
+| Description words | 1,442 | 109.5 | 66.9 | 1 | 70 | 99 | 132 | 559 |
+| Start year | 1,442 | 1653.5 | 187.2 | 25 | 1555 | 1695 | 1800 | 1915 |
+| Date range (years) | 1,442 | 30.5 | 39.6 | 0 | 3 | 10 | 50 | 299 |
 
-### Top 10 places of origin
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_dates.png)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_words.png)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_date_ranges.png)
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_date_vs_words.png)
+
+#### Top 10 places of origin
 
 | Place | Paintings |
 |---|---|
 | Japan | 375 |
-| India | 208 |
+| India | 207 |
 | France | 181 |
 | China | 159 |
 | Italy | 121 |
@@ -182,12 +146,14 @@ Everything below uses the description, date, and image group. HTML tags get remo
 | Northern India | 28 |
 | England | 27 |
 
-### Paintings per era
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_origins.png)
+
+#### Paintings per era
 
 | Era | Paintings |
 |---|---|
 | classical | 4 |
-| medieval | 121 |
+| medieval | 120 |
 | renaissance | 363 |
 | early modernity | 657 |
 | 19th century | 155 |
@@ -196,7 +162,9 @@ Everything below uses the description, date, and image group. HTML tags get remo
 | modern | 3 |
 | contemporary | 0 |
 
-### Oldest paintings
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/cleveland_eras.png)
+
+#### Oldest paintings
 
 | ID | Title | Date | Start year |
 |---|---|---|---|
@@ -206,7 +174,13 @@ Everything below uses the description, date, and image group. HTML tags get remo
 | 138881 | Mural Fragment with Elite Male and Maguey Cactus Leaves | 500-550 | 500 |
 | 133068 | Seven Leaves from a Manuscript of the Gandavyuha-sutra | 1000s-1100s | 1000 |
 
-### Shortest descriptions
+#### Example: oldest painting
+
+![Funerary Portrait of a Young Girl / ID 145925 / c. 25-37 / 156 words](/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/145925.jpg)
+
+> Traditional Egyptian burial practices continued well into Roman times. These lifelike portraits were made for a specific purpose, namely, to cover the head of the mummified individual represented in the portrait. Typically, they were painted with encaustic (pigment mixed with beeswax) on wooden panels, as was the case with the Funerary Portrait of a Young Girl. Less frequently, they were painted directly onto the linen shrouds that covered the mummy, which is how the other two examples shown here were made. Hairstyles, jewelry, and clothing are carefully rendered according to contemporary fashion. Meticulously rendered details such as skin tone, facial hair, and bone structure suggest a keen sense of the subject's individuality, and with it, an inevitable sense of mortality. The addition of gilded details on the lips and jewelry of the young girl is a rare detail that alludes to the individual's transformation in death into a blessed spirit, or akh, a being of light.
+
+#### Shortest descriptions
 
 | ID | Title | Words |
 |---|---|---|
@@ -216,7 +190,13 @@ Everything below uses the description, date, and image group. HTML tags get remo
 | 146174 | Shakyamuni under the Bodhi Tree | 16 |
 | 148960 | Trees and a Stream on a Hillside | 16 |
 
-### Longest descriptions
+#### Example: shortest description
+
+![Falcon / ID 150872 / 1615-1867 / 14 words](/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/150872.jpg)
+
+> This otsu-e painting depicts a hunting falcon, a lucky charm for a bountiful harvest.
+
+#### Longest descriptions
 
 | ID | Title | Words |
 |---|---|---|
@@ -226,38 +206,39 @@ Everything below uses the description, date, and image group. HTML tags get remo
 | 149653 | The Four Accomplishments | 559 |
 | 149654 | The Four Accomplishments | 559 |
 
-## How the datasets overlap
+#### Example: longest description
 
-Cleveland images are saved as `{id}.jpg`, so comparing artwork IDs covers the image overlap too.
+![The Four Accomplishments / ID 149654 / late 1500s / 559 words](/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/149654.jpg)
+
+> At first this scene appears a bit strange, if not bizarre: men, young and old, sit in a vast wilderness playing a board game or executing an ink painting. The furniture and ceramic wares are elegant, the attire is fashionably informal, and the young attendants outnumber the gentlemen of leisure. Clouds and mist roll through the landscape, whose bleakness suggests late fall or early spring, a chilly time to be outdoors engaged in what Westerners would call pastimes or hobbies. But we are viewing the past, a pictorial vision of a cultured gentleman’s ideal in classical East Asian history: the Four Accomplishments. This enduring Confucian theme embraces the arts of calligraphy, painting, music, and go (a game of strategy akin to chess), each of which is portrayed or suggested in this pair of 16th-century folding screens, or byøbu. In the left screen, the multiple brushes and a large flat rock surface for writing refer to painting and calligraphy; in the right screen, a seven-stringed musical instrument called a qin, protected in cloth and resting on the large wooden table close to the game players, indicates music and the game of go. The daily pursuit of one or more of these activities has a venerated history in ancient China, one that was transmitted to Korea and Japan by at least the 1400s, when interest in Chinese culture pervaded medieval Japanese society. In Kyoto, Zen culture favored this theme, introducing it into mural painting programs organized for temple interiors as early as the late 1400s. The Kano school painters, in particular, are noted as the most prolific exponents of this theme, and their popularity reached a high point in the early 1600s. The Kano atelier produced many hundreds of paintings in various formats for private and institutional clients, guided by the work ethic, management skills, and academic painting style of Kano Motonobu (1476–1559). These byøbu follow that master’s style as exemplified in the sliding-door panel paintings depicting Zen patriarchs from the Daisen-in subtemple at the Daitoku-ji in Kyoto (c. 1513). Traditionally attributed to his son Kano Shøei, those byøbu show Motonobu’s legacy of distinctive “nailhead” brushstrokes (in the depiction of robing), spiky and elongated plant forms, and crystalline rock formations. The new, more relaxed pictorial elements and broader painting techniques that give this composition a distinct sense of quietude, however, suggest the hand of Kano Yukinobu, who was also active in the later 1500s in Kyoto. Comparison with the narrative and compositional elements of Horses and Grooms in the Stable (1934.373) is as enlightening as it is instructive in helping distinguish yamato-e and kara-e painting styles, parallel streams in medieval Japan. Two unobtrusive elements in the byøbu here provide insights into the evolution of the Four Accomplishments theme in the 1500s. First is the greater importance placed on the depiction of a landscape setting. Second, these lofty exemplars of classical China are portrayed in groupings that convey a distinctive relaxed ambience when compared to earlier Chinese or Japanese presentations. To understand this important leitmotif emerging in conventional ink painting circles at mid-century, one need only gaze at the young page slouched beside the stream watching fish swimming nearby. Confucian ideals as well as notions of Zen rectitude have been superseded in these byøbu by a series of beguiling vignettes showing human engagement and companionship in an open and receptive natural setting.
+
+### New API vs. old API
 
 | Check | Artworks |
 |---|---|
-| New API unique IDs | 2,180 |
-| ...also anywhere in the old API | 2,097 |
+| New API unique IDs | 2,179 |
+| ...also anywhere in the old API | 2,096 |
 | ...not in the old API at all | 83 |
-| Old API usable paintings | 1,443 |
-| ...also in the new API | 1,307 |
+| Old API usable paintings | 1,442 |
+| ...also in the new API | 1,306 |
 | ...only in the old API | 136 |
-| Same ID number at Chicago and Cleveland (new API) | 9 |
 
-That last row is just two museums reusing a number. They're different artworks, so the combined data needs a `museum` column.
+## Description generation
 
-## Description samples, now with abstract as true/false
-
-`abstract` is its own field now, and those paintings got a real era based on their date. This version lives in `output/samples_abstract_boolean.json`. The original sample files haven't been changed.
+### Samples
 
 | Count | Value |
 |---|---|
-| Rows (one per artwork per prompt) | 166 |
-| Different artworks | 83 |
-| Prompts | 2 |
+| Rows (one per artwork per prompt) | 246 |
+| Different artworks | 82 |
+| Prompts | 3 |
 
-### Artworks per era
+#### Artworks per era
 
 | Era | Chicago not abstract | Chicago abstract | Cleveland not abstract | Cleveland abstract |
 |---|---|---|---|---|
 | classical | 1 | 0 | 4 | 0 |
-| medieval | 5 | 0 | 5 | 0 |
+| medieval | 5 | 0 | 4 | 0 |
 | renaissance | 5 | 0 | 5 | 0 |
 | early modernity | 5 | 0 | 5 | 0 |
 | 19th century | 5 | 0 | 5 | 0 |
@@ -266,7 +247,9 @@ That last row is just two museums reusing a number. They're different artworks, 
 | modern | 5 | 4 | 3 | 5 |
 | contemporary | 0 | 1 | 0 | 0 |
 
-### The abstract ones
+![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/samples_per_era.png)
+
+#### Abstract artworks
 
 | Museum | ID | Title | Year | Era |
 |---|---|---|---|---|
@@ -276,16 +259,7 @@ That last row is just two museums reusing a number. They're different artworks, 
 | Chicago | 186682 | Grey Diamond | 1955 | modern |
 | Chicago | 146988 | Rodeo | 1971 | contemporary |
 | Cleveland | 164630 | Night Café | 1918 | modern |
-| Cleveland | 167456 | Rock at Sea | 1920 | modern |
 | Cleveland | 149112 | Church Street El | 1920 | modern |
+| Cleveland | 167456 | Rock at Sea | 1920 | modern |
 | Cleveland | 135420 | Morning Glory with Black | 1926 | modern |
 | Cleveland | 143278 | Composition with Red, Yellow, and Blue | 1927 | modern |
-
-Judgment call: the note in `openAI_description_generation.py` says only the Mondrian is fully abstract at Cleveland and the other four are near-abstract. They're all `true` here because they were all in the abstract group.
-
-## What's not in here
-
-- **Cleveland scrape counters** (no ID, no title, and so on): they only ever printed to the terminal and were never saved. Getting them back means calling the API again.
-- **Deleted duplicate image count** from `chicago_manual_data_cleaning.py`: same deal, it only printed.
-- **Combined Chicago + Cleveland stats:** our scripts haven't calculated these yet.
-- **Charts:** this is just the numbers.

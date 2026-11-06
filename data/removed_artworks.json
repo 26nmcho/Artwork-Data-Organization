@@ -1,0 +1,148 @@
+[
+    {
+        "id": 117658,
+        "museum": "cleveland",
+        "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+        "reason": "manuscript cover, not a painting",
+        "removed": "2026-11-06",
+        "cleveland_new_api": [
+            {
+                "id": 117658,
+                "title": "Bottom cover, from a Manuscript of the Perfection of Wisdom in Eight Thousand Lines (Ashtasahasrika Prajnaparamita-sutra)",
+                "description": "Palm-leaf manuscripts in the <em>pothi </em>format are recognizable by their long and horizontal shapes. In contrast to Western-style books that require one to turn the pages left-to-right or right-to-left, <em>pothi </em>are read by flipping the pages with a vertical motion. The palm-leaf pages would have been bound together by a cord attached to a peg that was run through the two binding holes on the top and bottom covers. The spot for the peg is still visible on the left side of this cover. When not in use, the manuscript would have been wrapped in ribbons and textiles that protected it from dust, moisture, and pests.",
+                "creation date early": 1119,
+                "creation date late": 1119,
+                "creators": [],
+                "technique": "Gum tempera, paper, and colors on wood",
+                "image": "https://openaccess-cdn.clevelandart.org/1938.301.189.b/1938.301.189.b_web.jpg",
+                "culture": [
+                    "Eastern India, Bihar, Vikramashila Monastery. Painting: Nepal, Kathmandu"
+                ]
+            }
+        ],
+        "cleveland_old_api": [
+            {
+                "id": 117658,
+                "accession_number": "1938.301.1",
+                "share_license_status": "CC0",
+                "tombstone": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover, 1119. India, Bihar, Vikramashila Monastery. Palm-leaf pages, wooden covers; ink and color on palm leaves; overall: 6.5 x 57 x 1.5 cm (2 9/16 x 22 7/16 x 9/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund 1938.301.1",
+                "current_location": null,
+                "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+                "title_in_original_language": null,
+                "series": null,
+                "series_in_original_language": null,
+                "creation_date": "1119",
+                "creation_date_earliest": 1119,
+                "creation_date_latest": 1119,
+                "creators": [],
+                "culture": [
+                    "India, Bihar, Vikramashila Monastery"
+                ],
+                "technique": "palm-leaf pages, wooden covers; ink and color on palm leaves",
+                "support_materials": [],
+                "department": "Indian and South East Asian Art",
+                "collection": "Nepalese Art",
+                "type": "Painting",
+                "measurements": "Overall: 6.5 x 57 x 1.5 cm (2 9/16 x 22 7/16 x 9/16 in.)",
+                "dimensions": {
+                    "overall": {
+                        "height": 0.065,
+                        "width": 0.57,
+                        "depth": 0.015
+                    }
+                },
+                "state_of_the_work": null,
+                "edition_of_the_work": null,
+                "creditline": "Purchase from the J. H. Wade Fund",
+                "copyright": null,
+                "inscriptions": [],
+                "exhibitions": {
+                    "current": [],
+                    "legacy": [
+                        "The Cleveland Museum of Art (10/14/2017-03/25/2018): \"Beyond Angkor: Cambodian Sculpture from Banteay Chhmar\""
+                    ]
+                },
+                "provenance": [],
+                "find_spot": null,
+                "related_works": [],
+                "fun_fact": "The criss-cross pattern at the holes references the ribbons and cords that would have bound the book together.",
+                "digital_description": "The inner side of the top cover is fully painted with images of the Five Transcendent Buddhas of Esoteric Buddhism. Each one has a different color, meaningful hand gesture, and is associated with a spatial direction. In the center is the white Vairochana holding his hands in the enlightenment mudra, flanked by gracefully painted attendant bodhisattvas holding their hands in gestures of veneration. On either side of the binding holes are the other four Transcendent Buddhas Akshobyha (blue, earth-touching mudra, east) and Amitabha (red, meditation mudra, west), and on the ends are Ratnasambhava (gold, gift-giving mudra, south) and Amoghasiddhi (green, fear-not mudra, north).",
+                "wall_description": null,
+                "citations": [
+                    {
+                        "citation": "The Cleveland Museum of Art. <em>The Cleveland Museum of Art Handbook.</em> Cleveland, OH: The Cleveland Museum of Art, 1958.",
+                        "page_number": "Mentioned: cat. no. 754",
+                        "url": "https://archive.org/details/CMAHandbook1958#page=136"
+                    }
+                ],
+                "catalogue_raisonne": null,
+                "url": "https://clevelandart.org/art/1938.301.1",
+                "images": {
+                    "web": {
+                        "url": "https://openaccess-cdn.clevelandart.org/1938.301.1/1938.301.1_web.jpg",
+                        "filename": "1938.301.1_web.jpg",
+                        "filesize": "97438",
+                        "width": "900",
+                        "height": "171"
+                    },
+                    "print": {
+                        "url": "https://openaccess-cdn.clevelandart.org/1938.301.1/1938.301.1_print.jpg",
+                        "filename": "1938.301.1_print.jpg",
+                        "filesize": "865156",
+                        "width": "3400",
+                        "height": "647"
+                    },
+                    "full": {
+                        "url": "https://openaccess-cdn.clevelandart.org/1938.301.1/1938.301.1_full.tif",
+                        "filename": "1938.301.1_full.tif",
+                        "filesize": "22789084",
+                        "width": "6316",
+                        "height": "1201"
+                    }
+                },
+                "updated_at": "2019-02-21 04:39:01.949000"
+            }
+        ],
+        "descriptions": [
+            {
+                "museum": "cleveland",
+                "id": 117658,
+                "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+                "creation date early": 1119,
+                "era": "medieval",
+                "abstract": false,
+                "prompt_name": "high_restrictions_context_for_project",
+                "generated_description": "This narrow, horizontal panel reads as an object of accumulated time. Rendered in dark, worn layers of paint and gilt trace, the length of the piece is punctuated by a central circular aperture and a scatter of knocks and abrasions that reveal underlying ground and wood. A small applied paper label at one end—handwritten and faded—hints at provenance or prior use; tiny nail holes and a recessed profile along the edges suggest it once served a functional, architectural, or framing purpose. The work’s restrained palette and distressed surface emphasize materiality and history, inviting close inspection. As much about absence as presence, it registers human handling and decay, and prompts reflection on utility, memory, and the quiet poetry of everyday objects transformed by time.",
+                "description_model": "gpt-5-mini",
+                "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone.",
+                "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/117658.jpg"
+            },
+            {
+                "museum": "cleveland",
+                "id": 117658,
+                "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+                "creation date early": 1119,
+                "era": "medieval",
+                "abstract": false,
+                "prompt_name": "less_restriction_alt_text_method",
+                "generated_description": "Long, narrow, shallow wooden box about the length of an arm. The top surface is a flattened rectangle with a raised, beveled border running the full perimeter. Dark varnish or black paint covers most of the wood but is heavily worn: chips, scratches, and flaking reveal lighter brown wood beneath and occasional small flecks of green paint. Near the middle, slightly offset, is a round hole or circular area of loss surrounded by worn edges and a pale ring, suggesting a former fitting or handle. The corners and edges are scuffed and softened by age. Toward one short end a small white paper label with faint handwriting is stuck to the surface. Overall the piece has a dry, rough texture and an aged, utilitarian appearance, like an old storage case or tool tray.",
+                "description_model": "gpt-5-mini",
+                "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long.",
+                "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/117658.jpg"
+            },
+            {
+                "museum": "cleveland",
+                "id": 117658,
+                "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+                "creation date early": 1119,
+                "era": "medieval",
+                "abstract": false,
+                "prompt_name": "plain_description",
+                "generated_description": "A long, narrow rectangular wooden object stretches across the frame, its once-dark surface dulled by age and wear. A raised border runs around the perimeter, with traces of gilt or gold paint still visible along the edges. The finish is heavily abraded: chips, scratches, and patches where the underlying wood shows through, and faint flecks of green paint linger in a few spots. A roughly circular hole and an adjacent worn area interrupt the flat face near one end, suggesting removed hardware or a mounting point. At the opposite end a small rectangular paper label remains affixed, its handwriting faded. Overall the piece has a rustic, antique patina that speaks to long use and handling over time.",
+                "description_model": "gpt-5-mini",
+                "description_prompt": "Write an description of this picturemake the description around 100-150 words long.",
+                "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/117658.jpg"
+            }
+        ]
+    }
+]

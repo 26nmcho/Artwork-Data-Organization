@@ -1,0 +1,422 @@
+[
+    {
+        "id": 138881,
+        "title": "Mural Fragment with Elite Male and Maguey Cactus Leaves",
+        "creation date early": 500,
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/138881.jpg",
+        "generated_description": "This image shows a weathered mural fragment painted in deep red and muted terracotta tones. At its center is a stylized human-like figure wearing an elaborate headdress and layered regalia; sweeping feather forms and geometric motifs fan out behind the head, suggesting wings or a ceremonial plume. The figure holds a curling, scroll-like element that winds upward, and its garments are decorated with circular and stepped patterns. A patterned border runs along the top and sides, composed of repeating chevrons and floral or sunburst designs. Surface wear, scratches, and areas of faded pigment give the piece a textured, ancient feel, emphasizing its age and the fragile beauty of the surviving decorative details.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 145925,
+        "title": "Funerary Portrait of a Young Girl",
+        "creation date early": 25,
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/145925.jpg",
+        "generated_description": "A finely painted funerary portrait shows a young woman rendered with striking realism and a calm, direct gaze. Her large dark eyes and softly modeled face are framed by braids and a gilded laurel wreath that catches the light, echoed by gold leaf highlights on her lips, earrings, and delicate necklace. She wears a softly draped white tunic beneath a purple cloak patterned with small gold motifs, the folds and textures suggested with confident, economical brushstrokes. The image is set on a narrow wooden panel with a rounded top, the muted background emphasizing the sitter’s presence. The combination of naturalistic detail and shimmering gold creates a sense of dignity and quiet formality befitting a commemorative portrait.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 145923,
+        "title": "Funerary Portrait of a Man",
+        "creation date early": 138,
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/145923.jpg",
+        "generated_description": "A weathered painted portrait on frayed linen shows a solemn, dark-eyed face rendered with earthy pigments and confident brushstrokes. The subject’s deep-set eyes, framed by heavy lids and arched brows, draw the viewer with an intense, contemplative gaze. Warm ochres and burnt sienna build the contours of the cheeks and jaw, while muted greens and faded blues form a loose background and suggestion of drapery. The surface is cracked and abraded in places, revealing the textile support and lending a fragile, timeworn character. Despite its damage, the portrait preserves a strong sense of presence: a quietly dignified individual captured in a spare, expressive manner that balances realism with painterly immediacy.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 145924,
+        "title": "Funerary Portrait of a Woman",
+        "creation date early": 138,
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/145924.jpg",
+        "generated_description": "A fragmentary painted portrait shows a solemn woman rendered in warm ochres and deep browns. Her dark, voluminous hair frames a long, slightly elongated face with large, almond-shaped eyes that meet the viewer with a steady, introspective gaze. Subtle highlights on the cheeks and forehead and fine brushstrokes around the mouth and nose suggest careful modeling of flesh, while small pearl-like earrings add a touch of delicate ornament. The surface bears age: cracks, worn edges, and areas of loss reveal the rough textile support beneath and lend the work a fragile, ancient quality. The muted, neutral background keeps focus on the sitter’s expression, which is calm yet quietly intense, evoking both dignity and melancholy.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 133012,
+        "title": "The White Path to the Western Paradise across Two Rivers (Niga Byakudō)",
+        "creation date early": 1200,
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/133012.jpg",
+        "generated_description": "This vertical hanging scroll presents a carefully ordered vision of a Buddhist afterlife. At the top, three golden figures—centered by a radiant Buddha guarded by attendant bodhisattvas—sit before an elegant palace, its layered roofs and bridges suggesting a heavenly realm. Below them, a curved bridge spans a dark river where pilgrims and silhouettes move toward salvation. The middle register shows turbulent red flames and smaller figures amid scenes of judgment and deliverance, while the lower zones depict everyday buildings, boats, and landscapes dotted with tiny human figures. Rich golds, deep reds, and muted greens give the work a sacred glow, and an ornate patterned border frames the multilayered narrative, guiding the viewer from earthly life up toward spiritual awakening.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 125248,
+        "title": "The Coronation of the Virgin with the Trinity",
+        "creation date early": 1395,
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/125248.jpg",
+        "generated_description": "A radiant, devotional scene centers on a kneeling woman in a flowing blue robe, her hands crossed in humility as two dignified, bearded figures gently place a golden crown upon her head. To her left, a robed elder raises the crown; to her right, a wounded yet serene figure bearing a wooden cross assists. Above them, a white dove descends, its wings outstretched, haloed by a luminous arch. Surrounding the group are numerous angels with golden halos and rich red wings, their faces tender and reverent against a shimmering gilded background. The composition emphasizes reverence and celestial harmony, combining delicate, elongated forms and sumptuous gold detailing to convey a sense of sacred coronation and heavenly presence.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 156183,
+        "title": "Summer Mountains (after Dong Yuan [active about ad 937-975])",
+        "creation date early": 1290,
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/156183.jpg",
+        "generated_description": "A tall, muted landscape scroll unfolds a quiet, meditative scene: a steep, craggy mountain rises on the right, its ridges rendered in delicate, layered ink strokes that suggest weathered rock and terraces of pines. Below, a gently winding valley opens toward distant, mist-softened peaks on the left, with scattered trees and rocky outcrops tracing a natural path through the composition. Sparse brushwork and areas of open space create a sense of atmospheric depth and hush, as if dawn mist blurs the middle distance. Small inscriptions and red seals punctuate the upper left and lower margins, adding human presence without disturbing the painting’s contemplative mood. Overall, the work emphasizes scale, serenity, and the timeless dialogue between mountain, water, and sky.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 117658,
+        "title": "Perfection of Wisdom in Eight Thousand Lines: Ashtasahasrika Prajnaparamita: Top Cover",
+        "creation date early": 1119,
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/117658.jpg",
+        "generated_description": "A long, narrow rectangular wooden object stretches across the frame, its once-dark surface dulled by age and wear. A raised border runs around the perimeter, with traces of gilt or gold paint still visible along the edges. The finish is heavily abraded: chips, scratches, and patches where the underlying wood shows through, and faint flecks of green paint linger in a few spots. A roughly circular hole and an adjacent worn area interrupt the flat face near one end, suggesting removed hardware or a mounting point. At the opposite end a small rectangular paper label remains affixed, its handwriting faded. Overall the piece has a rustic, antique patina that speaks to long use and handling over time.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 152250,
+        "title": "Yujo Monogatari Emaki",
+        "creation date early": 1336,
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/152250.jpg",
+        "generated_description": "A delicate monochrome scene rendered in fine ink on aged paper, this image evokes a classical Japanese courtly interior. Slanting wooden railings divide the composition into overlapping compartments, while flowing cursive calligraphy drifts across the page like whispered conversation or a written narrative. In the upper left two male courtiers in tall caps and layered robes sit together, their gestures subdued and composed. In the lower right, three noblewomen with long, glossy hair and billowing sleeves gather beneath the beams, their faces gently suggested with minimal lines. The interplay of architecture, figures, and script creates a quietly intimate atmosphere of separation and exchange—an elegant, restrained moment that feels both narrative and poetic, resonant with the aesthetics of Heian-era storytelling.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 153736,
+        "title": "Pine and Camellias",
+        "creation date early": 1595,
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/153736.jpg",
+        "generated_description": "A six-panel Japanese folding screen unfolds across a luminous gold ground, its broad expanse defined by elegant simplicity and careful negative space. To the right, a weathered tree trunk and gnarled branches—rendered in expressive black ink—reach outward with knotty texture and lively brushwork. Sprays of green leaves and small white blossoms provide concentrated color, their delicate forms contrasting the bold, calligraphic strokes of the wood. Faint, misty washes and wisps of ink suggest distant clouds or mountain silhouettes, adding depth without clutter. A narrow patterned brocade border frames the composition, heightening its refined restraint. The overall effect is tranquil and contemplative, a study in asymmetry and seasonality that balances vitality with quiet, timeless elegance.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 97179,
+        "title": "Virgin and Child",
+        "creation date early": 1437,
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/97179.jpg",
+        "generated_description": "This small, octagonal panel shows the Madonna seated with the Christ Child on her lap, rendered in the restrained, devotional style of the late medieval or early Renaissance period. A burnished gold ground surrounds the figures, picking out delicate halos and lending a sacred glow. Mary’s composed face is framed by a blue veil and a dark robe with gilt trim; her downcast eyes and gentle hands convey calm tenderness. The child, dressed in patterned green and pink robes, holds a small bird—an emblematic detail suggesting future suffering—while meeting the viewer with a solemn expression. Subtle wear and craquelure across the painted surface and the gilt field hint at the panel’s age, giving the scene an intimate, time-worn dignity.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 159728,
+        "title": "Washing the Feet (from the Dusty World)",
+        "creation date early": 1570,
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/159728.jpg",
+        "generated_description": "This vertical ink-and-color landscape unfolds like a quiet, meditative journey. In the foreground, rocky channels and a pale stream thread between weathered boulders, while twisted pines with delicate, textured trunks rise from the slopes. A small pavilion nestles among the trees, and tiny human figures move along hidden paths, dwarfed by the surrounding wilderness. The middle ground opens into layered hills and groves, rendered with fine brushwork and soft washes that suggest mist drifting across the valley. In the far distance, faint mountain peaks recede into pale atmosphere. Calligraphic inscription and red seals occupy the upper right, balancing the composition. Subtle tones and meticulous detail evoke timeless serenity, inviting slow contemplation of nature’s scale and stillness.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 146035,
+        "title": "Clearing Autumn Mists in the Chu Mountains",
+        "creation date early": 1600,
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/146035.jpg",
+        "generated_description": "This vertical hanging scroll depicts a classic ink-and-wash landscape where towering, mist-shrouded peaks recede into soft washes of gray, creating a dramatic sense of height and distance. Delicate, calligraphic brushstrokes render craggy rock faces, while dabs of darker ink shape windswept pines anchoring the middle ground. Below, a stream and small waterfall thread among boulders toward a simple arched bridge, where tiny human figures and a cluster of humble huts emphasize the vastness of nature. Empty space and translucent fog produce a contemplative, suspended atmosphere. A column of inscription and red seals near the summit balance the composition, and a patterned brocade border frames the scene, enhancing the painting’s quiet, timeless elegance.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 86121,
+        "title": "Moonlit Landscape (one of a pair)",
+        "creation date early": 1575,
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/86121.jpg",
+        "generated_description": "A serene eight-panel folding screen unfolds a misty ink landscape rendered in delicate monochrome wash. Soft, rolling mountains recede into pale fog, their silhouettes dissolving into atmospheric distance. In the foreground, clusters of bare trees and low hills frame tranquil waterways where a few tiny boats drift, suggesting human presence without dominating the scene. The artist’s restrained brushwork and subtle gradations of ink create a quiet balance between solid form and emptiness, inviting contemplation. Rich brocade borders encase the composition, giving the work a refined, ceremonial air. Overall, the image evokes a timeless, meditative mood—a poetic celebration of nature’s hush and the gentle passage of time.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 111479,
+        "title": "The Miracles of Saint James the Greater",
+        "creation date early": 1726,
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/111479.jpg",
+        "generated_description": "A dramatic, classical scene unfolds in this painting: a bearded central figure clad in flowing blue and rust robes raises one hand as if commanding attention, his staff resting beside him. Around him a crowd reacts with awe and alarm—women and children clutch one another, while men gesture toward an elderly, partially nude man collapsing on a bed. A supplicant kneels in the foreground, face buried in clasped hands beside an open book, suggesting prayer or supplication. Architectural columns and a distant tower frame the scene, and spectators lean from a balcony above. Rich, warm colors and careful light model the figures, heightening the emotional intensity and lending the tableau a sense of solemnity, urgency, and spiritual portent.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 130497,
+        "title": "Fish and Rocks",
+        "creation date early": 1650,
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/130497.jpg",
+        "generated_description": "This long horizontal ink scroll features a spare, rhythmic composition of fish, rocks, and calligraphy rendered in expressive brushstrokes. On a warm, aged paper ground, a few sinuous fish glide among abstracted stones and splashes of dark ink, capturing motion with economy and confidence. Wide areas of negative space let each motif breathe, while the varying ink washes—from dense black to pale gray—create depth and subtle atmosphere. Several columns of elegant calligraphy and a cluster of red seals balance the pictorial sections, suggesting a poetic or literati context. Overall the work feels contemplative and fluid, emphasizing gesture, restraint, and the harmony between image and inscription.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 146193,
+        "title": "Girls Spraying Each Other at Holi",
+        "creation date early": 1635,
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/146193.jpg",
+        "generated_description": "This delicate miniature painting captures a lively scene of women celebrating together in a walled garden. Dressed in brightly colored robes and ornate jewelry, the figures form small groups: some beat frame drums and sing, others toss colored powder or pour scented water from pitchers and spouts, smearing playful streaks across cheeks and hair. Two women at the center embrace the revelry while attendants tend vessels and trays of pigments below. A raised terrace, flowering beds, and a leafy tree frame the joyful commotion, giving the composition depth and intimacy. The artist’s fine brushwork and rich palette emphasize movement and communal ritual, evoking a festive, sensual moment of shared delight and feminine camaraderie.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 135483,
+        "title": "Ruins in a Rocky Landscape",
+        "creation date early": 1635,
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/135483.jpg",
+        "generated_description": "A tranquil, classical landscape unfolds at dusk: a towering, shadowed cliff on the left frames a sunlit rocky promontory on the right, where weathered columns of a ruined temple rise among tall, umbrella-like pines. In the foreground a calm pool reflects the warm, fading light while cattle graze and drink along the water’s edge. Small human figures — shepherds and travelers — recline or stand, lending scale and quiet narrative to the scene. Soft, golden tones wash the distant hills and sky, creating a gentle contrast with the deep shadows of the gorge. The composition balances rugged natural forms with the serene presence of antiquity, evoking peaceful solitude and the slow passage of time.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 161785,
+        "title": "Portrait of Sardar Singh (Son of Savant Singh, 1730–68)",
+        "creation date early": 1755,
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/161785.jpg",
+        "generated_description": "A serene courtly scene unfolds on a raised terrace overlooking a river and a graceful waterfall that tumbles from rust-colored hills into a calm pool. At center, a regal figure with a halo reclines on an ornate, gilded throne while finely dressed attendants and women cluster nearby, their jewel-toned robes and delicate jewelry rendered in meticulous detail. On the left, seated ladies present small gifts and play instruments, their gestures measured and elegant. Lush palms and flowering shrubs frame the water, and swans glide near the shore, adding to the tranquil atmosphere. The composition is enclosed by a decorative pink border patterned with stylized flowers, giving the image the refined intimacy and intricate ornamentation of an Indian miniature painting.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 314366,
+        "title": "The Morning Toilette",
+        "creation date early": 1805,
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/314366.jpg",
+        "generated_description": "A finely detailed miniature painting shows a graceful woman standing on a low, carved platform as four attendants attend to her. She lifts one arm to arrange her hair while a companion holds a mirror; another adjusts the drapery of her translucent white garment and a third offers a small box of jewelry. A fourth attendant carries a shallow basket piled with cloth or rice. The women wear richly patterned saris and filigreed jewelry, and several earthen and metal water jars rest at the platform’s base. A stylized, gently curving horizon and a pale sun occupy the sky behind them, while a narrow band of flowering lawn frames the foreground. The composition is enclosed in bold red and black borders, emphasizing the intimate, ceremonial moment.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 96328,
+        "title": "Portrait of Benjamin West",
+        "creation date early": 1818,
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/96328.jpg",
+        "generated_description": "A formal oil portrait presents an elderly gentleman from the chest up against a deep, warm red background. His high forehead and receding hairline reveal fine, wispy white hair above a face marked by delicate lines and a composed, thoughtful expression. Light falls gently across his features, accentuating pale skin, keen eyes, and a slightly pursed mouth that suggests quiet resolve. He is dressed in dark, sober outer garments with a white cravat at the throat and a soft blue scarf or sash adding a muted touch of color. The painter’s brushwork is restrained and classical, emphasizing character over ornament. Overall the image conveys dignity, introspection, and the calm authority of maturity.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 162195,
+        "title": "Aurora and Cephalus",
+        "creation date early": 1805,
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/162195.jpg",
+        "generated_description": "A tender, dreamlike scene unfolds in this Neoclassical tableau: two nude figures float suspended among soft, clouded skies, wrapped in a diaphanous veil that billows around them. The woman leans gently over the reclining man, their bodies closely entwined in a protective, intimate embrace; her long hair cascades over his shoulder while his face nestles into her neck. A small winged cherub hovers nearby, quietly witnessing the couple’s affection. Warm, rosy light bathes their skin, creating luminous highlights and subtle shadows that model the forms with graceful softness. The composition’s diagonal sweep and muted palette evoke a sense of calm and suspension, conveying both romantic longing and serene transcendence as if the moment exists between heaven and dream.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 96263,
+        "title": "Portrait of Jean Terford David",
+        "creation date early": 1813,
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/96263.jpg",
+        "generated_description": "A refined oil portrait shows a young military officer posed with calm confidence. He wears a dark, buttoned coat with gleaming silver epaulettes and a crisp white cravat, while a broad red sash is tied around his waist above pale trousers. His dark, curly hair frames a clear, composed face and thoughtful gaze turned slightly to the right. One hand rests on a rock or ledge, the other near the hilt of an elegantly worked sword, suggesting both command and composure. The painter uses soft, dramatic lighting to emphasize the sitter’s features against a smoky, atmospheric background, giving the scene a heroic yet introspective quality typical of early 19th-century portraiture.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 159270,
+        "title": "The Slotskirken of Christiansborg, Copenhagen",
+        "creation date early": 1850,
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/159270.jpg",
+        "generated_description": "A calm, reverent interior of a neoclassical church unfolds in the painting, viewed from a shadowed entrance toward a gilded altar. Tall Corinthian columns frame the nave and support a series of rounded arches and a coffered dome whose intricate stucco patterns glow softly in filtered daylight. Statues stand in side niches, and a restrained balustrade separates the sanctuary from the pews where a few solitary worshippers move or kneel. The stone floor and wooden benches lead the eye to the central golden cross, lit with quiet dignity. Muted earth tones and careful perspective convey both the solidity of the architecture and the hushed, contemplative atmosphere of a sacred space paused between ceremony and silence.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 150017,
+        "title": "Attributes of Music",
+        "creation date early": 1863,
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/150017.jpg",
+        "generated_description": "A hushed still life unfolds across a dark, shallow space: a pear‑brown lute lies diagonally on a stack of folded, dog‑eared sheet music, its carved soundhole and glossy body catching a soft, warm light. A simple wooden recorder rests in the foreground, its pale finger holes and metal rings contrasting with the lute’s polished curves. Loose pages of music fan up behind the instruments, their creases and shadowed staves suggesting recent use. A crimson ribbon threads through the composition, adding a streak of color, while a single pale rose at the flute’s end hints at fragility and passing beauty. The overall effect is quiet and contemplative, emphasizing texture, worn surfaces, and the ephemeral nature of sound and ornament.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 135480,
+        "title": "The Apple Seller",
+        "creation date early": 1885,
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/135480.jpg",
+        "generated_description": "A sun-dappled, impressionistic scene unfolds along a shaded path where a woman with a wicker basket bends toward three children gathered on the grass. Two girls in soft pastel dresses—one in pink, another in pale blue with a wide hat—sit close together, while a younger child in a bright red dress kneels beside them. Their faces are gentle and absorbed in a quiet moment of sharing or play, as the woman offers something small from her basket. A small dog at their feet adds a touch of lively curiosity. Loose, swirling brushstrokes blur the edges of trees and foliage, bathing everything in warm, luminous tones of green, blue, and rosy light, evoking a tranquil, tender summer afternoon.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 150079,
+        "title": "Still Life with Asparagus",
+        "creation date early": 1880,
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/150079.jpg",
+        "generated_description": "A quiet, intimate still life captures a bundle of pale asparagus bound with twine and arranged on a shallow earthenware dish. A few spears spill forward, their tips tinged with purple and green, catching the soft, directional light that sculpts each ribbed stalk. Behind them, a dark green pitcher recedes into deep shadow, its glossy surface reflecting faint highlights. The scene rests on a simple surface scattered with small peels and a pair of metal tongs, suggesting recent harvest or preparation. Muted browns and olive tones dominate, while sharp contrasts of light and shadow lend a contemplative, almost tactile realism. The composition celebrates humble ingredients with quiet dignity, inviting a closer look at texture and form.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 157104,
+        "title": "The Seine at Bas-Meudon",
+        "creation date early": 1865,
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/157104.jpg",
+        "generated_description": "This oil landscape captures a quiet rural scene beneath a vast, cloud-filled sky. A narrow, reflective river runs left to right, its still surface mirroring the soft, billowing clouds and a single tall, spindly tree on the far bank. A dirt road curves along the right, passing a cluster of simple houses and farm buildings where a horse-drawn cart waits and small figures move about their daily tasks. Scrubby grass, a few scattered boats, and a solitary person near the water emphasize the peaceful, everyday atmosphere. Loose, textured brushstrokes and a muted palette of blues, greens, and earth tones give the painting an intimate, naturalistic quality, suggesting a calm afternoon in the countryside. A signature and date appear at the lower right.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 144496,
+        "title": "Still Life with Cantaloupe",
+        "creation date early": 1875,
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/144496.jpg",
+        "generated_description": "A quiet, richly detailed still life presents an abundant arrangement of summer fruits on a fringed white cloth. At the center sits a textured cantaloupe, its netted rind contrasting with a cluster of velvety peaches in the foreground. Glossy bunches of dark and pale grapes spill from behind, while a shallow glass bowl holds small pears at the rear. A single ripe pear, scattered raspberries, and a few hazelnuts and a walnut add variety and warmth. A mother-of-pearl handled knife lies casually on the cloth, and a dark glass goblet reflects a distant window, suggesting soft daylight. The warm brown background, careful lighting, and meticulous surface detail create a serene, timeless mood of quiet abundance and painterly realism.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 86399,
+        "title": "Orchids and Rocks",
+        "creation date early": 1897,
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/86399.jpg",
+        "generated_description": "A serene eight-panel folding screen displays a series of tall, narrow ink paintings set against warm, aged paper. Each panel features delicate, calligraphic brushstrokes depicting graceful orchids or slender grasses emerging from craggy rocks, rendered with economy and elegant gesture. Subtle washes and fine line work create a rhythmic balance between dense inked forms and open, empty space, while vertical inscriptions and red seals punctuate several compositions. The paintings are mounted within cream borders and framed by muted green brocade panels and narrow gilt trim, giving the whole piece a refined, archival presence. The overall effect is quiet and contemplative, evoking a traditional East Asian literati aesthetic that celebrates simplicity, natural beauty, and the expressive potential of monochrome ink.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 125249,
+        "title": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+        "creation date early": 1889,
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/125249.jpg",
+        "generated_description": "A winding avenue of thick, knotted trees dominates the scene, their twisting trunks rendered in lively, textured strokes of gray, blue, and ochre. Mounds of pale stones and churned earth edge a narrow, reflective stream that cuts through the foreground, while a low stone wall guides the eye into the dappled distance. Small figures—a solitary worker carrying a basket and a pair of figures near a sunlit house with green shutters—add human scale but remain understated. Warm autumnal leaves mingle with cool highlights, giving the composition both energy and melancholy. A solitary lamppost and glimpses of buildings suggest a village setting, while the painterly rhythm of lines and colors conveys movement, labor, and the changing season.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 135299,
+        "title": "Adeline Ravoux",
+        "creation date early": 1890,
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/135299.jpg",
+        "generated_description": "A young girl is shown in profile against a deep, nearly black background, her pale face and sandy hair rendered in thick, expressive brushstrokes. She wears a high-collared, teal dress whose textured paint catches light in sweeping strokes, and a ribbon ties her hair back. Her gaze is calm and distant, focused slightly to the right, giving the composition a contemplative mood. To the right of her head, a few white, rose-like blossoms and leafy stems emerge from the darkness, painted in quick, confident gestures that contrast with the carefully modeled features of her face. The overall effect is intimate and introspective, with bold color contrasts and impasto creating a vivid sense of presence and quiet emotion.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 125104,
+        "title": "Frieze of Dancers",
+        "creation date early": 1890,
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/125104.jpg",
+        "generated_description": "A wide, panoramic painting shows five young ballerinas in quiet moments offstage, their white tutus and pale limbs forming a rhythmic line across the composition. Each figure is bent or seated, busy with small tasks—adjusting slippers, tying ribbons, resting—captured in graceful, slightly hunched postures that emphasize the work behind performance. The palette is muted: chalky whites and greys for costumes, warm ochres and olive greens in the background, and touches of reddish hair that punctuate the scene. Loose, sketchy brushwork and soft outlines give the image a rehearsed, intimate feeling, focusing on gesture and atmosphere rather than detail. The overall effect is a subtle, sympathetic snapshot of dancers’ quiet concentration and everyday ritual.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 120286,
+        "title": "Roses in a Vase",
+        "creation date early": 1890,
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/120286.jpg",
+        "generated_description": "A quietly luminous still life shows a loose bouquet of roses set in a squat, green vase. Cream, blush, and deep rose blooms are painted with thick, expressive brushstrokes that capture the flowers’ velvety texture and the soft interplay of light across their petals. Dark green leaves and unopened buds provide contrast, while a few fallen petals on the tabletop add a touch of transience. The background is a warm, muted wash of olive and ochre that gently recedes, allowing the flowers to sit forward without sharp edges. Overall the painting feels intimate and painterly—rich in color and surface texture—evoking both the fragility and the quiet opulence of freshly gathered roses.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 126769,
+        "title": "Fight between a Tiger and a Buffalo",
+        "creation date early": 1908,
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/126769.jpg",
+        "generated_description": "A dense, dreamlike jungle fills the canvas with an abundance of stylized greenery: broad banana leaves, spiky fronds, and clustered blossoms weave together into a layered, almost claustrophobic tapestry. In the foreground a striped tiger crouches low, muscles taut and eyes narrowed, its paw pinning a dark, struggling prey among the blades of grass. Pale, lantern-like flowers dangle overhead while bright orange fruits punctuate the scene, adding warm notes against the deep greens. The foliage surrounds and almost conceals the animals, creating a sense of sudden discovery and tense stillness. Subtle, meticulous details—textured leaves, patterned bark, and the animals’ expressive features—combine to make an uncanny, theatrical portrait of nature both lush and menacing.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 149587,
+        "title": "Souvenir of an \"International Ball\" (Portrait of Miss Kathleen Bruce)",
+        "creation date early": 1907,
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/149587.jpg",
+        "generated_description": "A languid figure reclines across an opulent chaise, her powdered pink gown spread in soft, ruffled tiers scattered with tiny black bows. The off-shoulder bodice and elbow-length gloves suggest a late 19th-century elegance; a delicate fan rests in one hand while a small bouquet lies in her lap. Her dark hair is swept back with a hint of blue ribbon, and she meets the viewer with a knowing, slightly amused expression. Rich, shadowed tones envelop the scene, the deep backdrop and gilded screen setting off the pale fabrics and lively brushwork. The painting captures both the sumptuous texture of fashion and a private, intimate mood — poised, relaxed, and quietly suggestive of a cultivated leisure.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 136510,
+        "title": "Water Lilies (Agapanthus)",
+        "creation date early": 1915,
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/136510.jpg",
+        "generated_description": "A soft, meditative scene unfolds across the canvas: a broad, still pool rendered in whispering washes of purple, mauve and deep green. Blurred, feathery brushstrokes suggest the gentle movement of water and submerged vegetation, while scattered pads and delicate white and pale pink blossoms float serenely on the surface. Pools of reflected light shimmer subtly, dissolving edges and creating a dreamy, almost abstract field where water, sky and plant life merge. The composition invites quiet contemplation, its muted palette and layered textures evoking the hush of a late afternoon by the pond. Small bright flecks of color punctuate the scene, giving life and rhythm to an otherwise tranquil, immersive study of nature’s fragile beauty.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 143278,
+        "title": "Composition with Red, Yellow, and Blue",
+        "creation date early": 1927,
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/143278.jpg",
+        "generated_description": "A spare, geometric composition fills the canvas with a crisp grid of thick black lines that carve the surface into asymmetrical rectangles and squares. A broad field of muted off-white dominates the center and most of the left side, while small blocks of saturated red, cobalt blue, and pale yellow punctuate the upper-left, lower-center, and right edges, respectively. The restrained palette and rigid horizontals and verticals create a calm, ordered tension between color and emptiness. Subtle brush texture and faint tonal variations in the white planes give the otherwise precise arrangement a quiet, tactile warmth. Overall, the picture feels balanced through contrast: bold color and line meet expansive negative space in a minimalist, modernist manner.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 167456,
+        "title": "Rock at Sea",
+        "creation date early": 1920,
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/167456.jpg",
+        "generated_description": "A dreamlike, stylized landscape unfolds in cool blues, teals and purples. Massive, geometric rock formations rise like cliffs or a monolithic island, their faceted faces catching subtle highlights. Water seems to cascade and foam around the base, suggested by swirling, translucent shapes and misty plumes that glow against the darker stone. Above, a luminous green sky—streaked with banded clouds and a pale circular moon—casts an otherworldly light, creating a shimmering aurora effect. The composition balances solid, weighty rocks with soft, bubbly clouds and flowing water, giving a sense of both stillness and movement. The overall mood is mysterious and serene, as if this scene belongs to a quiet, surreal seascape on another world.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 164630,
+        "title": "Night Café",
+        "creation date early": 1918,
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/164630.jpg",
+        "generated_description": "This painting presents a fragmented still life arranged on a low table, rendered in a cubist-inspired, collage-like manner. A central bowl of fruit and a tall bottle sit among crumpled cloths, patterned napkins, and scattered objects, their forms broken into overlapping planes and angular shapes. Deep greens, dusky blues and warm reds create a rich, textured palette, while decorative details — a checkered cloth, red polka dots and carved wood grain — add visual rhythm. Behind the table a carved balustrade, curtained window and simplified architectural silhouettes suggest an ambiguous interior opening onto an exterior sky. The composition balances solidity and flattening, combining everyday objects with architectural fragments to create a layered, slightly mysterious domestic scene.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 135420,
+        "title": "Morning Glory with Black",
+        "creation date early": 1926,
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/135420.jpg",
+        "generated_description": "A monumental close-up of a white bloom fills the frame, its broad, velvety petals unfolding in smooth, sculptural curves. Soft gradations of pale gray and faint green model each form, drawing the eye inward toward a subtly lit center where a single, delicate stigma emerges. The composition is intimate and abstracted, flattening perspective so that petals become overlapping planes of gentle light and shadow. A low, dark sweep at the bottom provides contrast, anchoring the luminous whites and lending depth to the image. The overall effect is tranquil and meditative, a focus on texture, contour, and the quiet drama of natural form rendered with serene restraint.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    },
+    {
+        "id": 149112,
+        "title": "Church Street El",
+        "creation date early": 1920,
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/cleveland_images/149112.jpg",
+        "generated_description": "Seen from a high vantage, this painting reduces a city block to bold, geometric planes and stark contrasts of light and shadow. Rectangular buildings and rooftops interlock like pieces of a puzzle: a large sunlit wall in warm pink and cream dominates the center, flanked by tall, narrow facades in muted browns and grays. Deep navy and black shadows carve out negative space, emphasizing depth and height, while a few small rooftop structures and a slanted band of textured surface add subtle detail. The composition feels both abstract and architectural, stripping the scene to essential forms and colors. Empty and quiet, it evokes the stillness of an urban morning or late afternoon, where architecture becomes the subject and human presence is implied rather than seen.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an description of this picturemake the description around 100-150 words long."
+    }
+]
