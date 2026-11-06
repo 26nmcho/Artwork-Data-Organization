@@ -1,0 +1,326 @@
+[
+    {
+        "id": 805,
+        "title": "Funerary Papyrus of Tayuhenutmut",
+        "era": "classical",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/805.jpg",
+        "generated_description": "A long, narrow strip of aged brown papyrus fills the image, roughly six times wider than tall, with frayed edges and darker patches of wear. Most of the central area is covered in dense, even lines of small dark hieroglyphic or hieratic script written in ink across three or four vertical columns. At the far right is a colorful painted vignette: a seated, mummified-looking male figure with green skin and a tall white crown sits on a decorated throne, facing left. In front of him a standing robed woman raises her hands in a gesture of reverence; a low offering table with small items and a short plant sit between them. Above the scene is a rectangular panel of larger hieroglyphic signs. Overall the piece combines text and a ritual image, faded but with traces of blue, red, green and black pigment.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 25774,
+        "title": "Virgin and Child Enthroned with Saints Peter, Paul, John the Baptist, and Dominic and a Dominican Supplicant",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/25774.jpg",
+        "generated_description": "A small, gilded devotional panel shows the Virgin Mary seated on a high throne, filling the center. She wears a deep blue mantle edged in gold and cradles the naked infant Jesus on her lap; he reaches up toward her face. A red patterned cloth hangs behind them, and thin decorative columns flank the throne. Four standing saints, each with a gold halo, form a vertical frame—two at left and two at right—holding a book, a staff, and other attributes. At the lower right a kneeling friar in a black cloak and white habit prays toward the Virgin, suggesting a donor portrait. The background and narrow frame gleam with gold leaf; the floor is a patterned green carpet. The overall mood is intimate and reverent, combining rich color, fine gold ornament, and calm, solemn figures.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 22527,
+        "title": "Crucifix",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/22527.jpg",
+        "generated_description": "A painted wooden crucifix seen straight-on, shaped like a cross with a round medallion at the top. At the center is the crucified Christ: a long, lean figure with a greenish loincloth, bowed head, closed eyes and a thin golden halo marked with red lines. His outstretched arms show nail wounds and small drops of painted blood. Above him, in the top roundel, is a smaller bust of Christ or a blessing figure; the horizontal bar contains three small scenes with two angels at the far ends. Below Christ’s hands, two standing figures—traditionally the Virgin Mary on the left and John the Apostle on the right—are painted in robes of deep blue, purple and pink. Background areas are bright blue and gold leaf; the bottom of the wooden panel is worn and the original paint is chipped, revealing aged wood. The overall mood is solemn and contemplative.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16241,
+        "title": "Diptych of the Virgin and Child Enthroned and the Crucifixion",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16241.jpg",
+        "generated_description": "A small hinged two-panel icon painted on wood with a bright gold background that glows like a metal leaf. The left panel shows the Virgin Mary seated frontally on a carved throne, wearing a deep blue robe; the Christ Child sits on her lap in a red tunic, both with round halos and calm, formal faces. Two angels hover above, gazing inward. The right panel depicts the Crucifixion: a slender, pale Christ nailed to a dark cross, a pink cloth around his waist, and two grieving figures—Mary and John—standing at the foot with bowed heads. Two small angels above hold a red placard. The painted surface is worn at the edges; the overall effect is solemn, reverent, and intimate, combining bold color, flattened space, and intricate gold ornament.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 76275,
+        "title": "Street Scenes in Times of Peace 太平風會圖",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/76275.jpg",
+        "generated_description": "A wide horizontal painting shows a busy outdoor carpentry scene with about twenty to thirty small, individual figures spread across a pale beige ground. Men in simple robes of green, blue, red and purple work in groups: some carry long beams on their shoulders, others lift wooden planks into place on sawhorses, and several sit or kneel planing, chiseling, or hammering on low benches. Hand tools—saws, planes, mallets, clamps and measuring rods—are clearly depicted, and a neat conical stack of timber stands near the center. Small tables and stools are scattered through the composition. The figures are drawn with quick, attentive gestures, giving a sense of steady, cooperative labor. A narrow gold border runs along the top edge, framing the scene.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 59971,
+        "title": "Saints John the Baptist and Catherine of Alexandria",
+        "era": "medieval",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/59971.jpg",
+        "generated_description": "A tall, narrow panel painting set in an ornate gilded Gothic frame. Two full-length holy figures stand beneath twin pointed arches against a burnished gold-leaf background. On the left is a gaunt, bearded ascetic, barefoot and draped in a rough brown cloak, with long hair and a solemn expression; he holds a rolled manuscript and a small round medallion. On the right is a crowned young woman, upright and composed, wearing a long blue gown richly patterned with gold foliate ornament and a cream mantle; she holds a spoked wheel and a slender palm. Both figures bear faint gilded halos. The carved frame features floral medallions, quatrefoils and beaded moldings; the painted surface shows delicate detailing and signs of age.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 14780,
+        "title": "The Tale of Genji",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/14780.jpg",
+        "generated_description": "Horizontal six-panel folding screen painted on gold leaf, its surface divided by floating gold “clouds” that separate small vignettes. At the left, an enclosed veranda and interior show reclining and seated court women in multi-layered patterned robes, surrounded by cushions and fans. In the center a slender willow droops over walkways where standing attendants and a solitary figure in red move between platforms. To the right an arched wooden bridge crosses dark water toward another group beside a blossoming cherry tree. Evergreen pines anchor the far left. Figures wear long trailing sleeves and layered silk; spaces are suggested by tatami-like mats, latticed screens, and steps rather than deep perspective. The overall mood is quiet and refined, contrasting shimmering gold with delicate patterns and thin ink outlines.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 7634,
+        "title": "Landscape of the Four Seasons",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/7634.jpg",
+        "generated_description": "Two folding six-panel screens sit side by side against a pale background. Each screen is painted in monochrome ink on aged paper with a narrow gold-brocade border. The left screen shows a wide, low-lying landscape: layered rocky hills and jagged peaks rise at the left, flattening toward a calm body of water on the right where tiny rowboats dot a misty expanse. Sparse, windswept pine trees and a few paths give scale. The right screen is more vertical and dramatic: steep cliffs, a high cascading waterfall, and clustered pines tumbling down rocky terraces. Small architectural details—a pavilion or temple and minuscule human figures—are tucked into the cliffs, emphasizing the vastness of nature. Overall the ink wash creates soft mist, deep shadows, and a quiet, contemplative mood of distance and solitude.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16171,
+        "title": "The Head of Saint John the Baptist Brought before Herod",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16171.jpg",
+        "generated_description": "A crowded banquet scene inside and in front of a pale blue, two‑story building with arches and an outside staircase. In the foreground a long table is laid with many gold plates and cups; three seated men at the table react with horror — one clasps his face, another hides his eyes, a third raises his hands in alarm. A young man kneels at the table’s foot, offering a golden platter carrying a severed man’s head. To the right, three women and two young men stand close together, one woman consoling another. Servers move through the architectural space, carrying dishes. Rich gold textiles, a patterned carpet under the kneeling figure, and cool blue walls give the painting a contrast of opulence and grim drama. Shadows and small architectural details suggest depth and layered rooms.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16319,
+        "title": "Altarpiece from Thuison-les-Abbeville: Saint Honoré",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16319.jpg",
+        "generated_description": "Alt text: A tall, full-length painted panel shows a solemn bishop standing almost the full height of the picture. He faces forward inside a shallow stone niche framed by carved columns and an arched canopy. A bright golden halo and an elaborately jeweled mitre (tall ceremonial hat) crown his pale, composed face. He wears a deep green robe under a broad red cope lined and edged with richly patterned gold embroidery that includes tiny painted saint figures. His left hand holds a long, ornamented crozier (staff) topped with gold; his right hand presents a small round object like a reliquary or medallion. The scene contrasts smooth carved gray stone above with the warm, reflective golds and textured fabrics of his vestments, creating a quiet, reverent atmosphere.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16324,
+        "title": "Portrait of Louise de Halluin, dame de Cipierre",
+        "era": "renaissance",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16324.jpg",
+        "generated_description": "A small, painted half-length portrait of a young woman set against a plain olive-green background. She faces slightly to her left, meeting the viewer with a composed, almost shy expression and a faint, closed-mouth smile. Her hair is dark and swept back under a close-fitting coif and a black veil edged with a gold band. She wears a fitted, dark-brown bodice with vertical black trim, a quilted golden collar framing a narrow neckline, and puffed sleeves that end in white, patterned undersleeves. A single strand pearl necklace with a tiny drop pendant rests at her throat. The brushwork emphasizes smooth, pale skin and fine textile textures; the image is cropped at the elbows and has a worn, slightly darkened painted frame.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 111649,
+        "title": "Abraham's Sacrifice of Isaac",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/111649.jpg",
+        "generated_description": "A dramatic oil painting centered on an outdoor stone altar beside the crumbling wall of a classical ruin. A bare-headed youth lies curled on the altar, his face turned away and his arms limp, while an older man in a green tunic and flowing yellow robe stands beside him, right arm raised high as if about to strike with a knife. A robed woman kneels at the altar’s edge, pressing her face into her hands in grief. Above them, a hovering figure reaches down to seize the man’s raised arm, halting the motion. In the foreground a white ram stands among low shrubs; to the left a donkey and a servant wait by a set of steps, cloths and a clay jar nearby. Broad brushstrokes render a sweeping sky of blue-gray clouds and warm earth tones, emphasizing the scene’s urgent tension and sudden reprieve.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 242449,
+        "title": "Crucifixion",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/242449.jpg",
+        "generated_description": "A painted wooden crucifix occupying the image’s center: a dark brown cross with a pale, anatomically detailed Christ nailed by hands and feet. He wears a white loincloth, a spiky golden crown of thorns, and small drops of blood at the wounds; a paper scroll above his head reads “INRI.” At each end of the horizontal beam a faint colored glow appears—reddish at left, bluish at right. The long vertical stem below the body is painted with the Virgin Mary standing full-length inside an oval halo of radiant gold. She wears a white gown and an ornate blue-and-gold mantle, hands near her chest over a flaming heart, and stands on a crescent moon supported by a small cherubic face. The overall palette contrasts somber browns with bright golds and whites.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 4788,
+        "title": "Lady Sarah Bunbury Sacrificing to the Graces",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/4788.jpg",
+        "generated_description": "A tall, vertical oil painting shows two women in a quiet, ritual moment inside a monumental space. Center-right, a standing woman in a pale pink, floor-length gown with a blue sash reaches left with a small shallow dish, offering it toward a raised sculpted fountain of three nude female figures seen through an arch. Her face is turned upward and lit from the left, her drapery falling in soft, translucent folds. Seated to the right, a younger woman in a deep green dress gently pours water from a brass ewer into a bowl. Behind them are a fluted column, a garland of flowers, and a large urn; a carved, serpent-wrapped stand supports the fountain basin. The scene feels calm and ceremonial, textured with soft fabric, polished metal, and carved stone.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 185008,
+        "title": "One of a Pair of Manuscript Covers from the Glorification of the Great Goddess (Devimahatmya)",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/185008.jpg",
+        "generated_description": "Two narrow, rectangular painted panels are stacked one above the other against a pale background. Each panel is densely painted with a repeating procession of ornate, humanlike figures rendered in bright orange-red, gold, black and green. The characters wear tall, tiered headdresses and radiating round halos; many have multiple arms that hold spears, swords or ritual objects. They stand on stylized cloud- or flame-like bases, often accompanied by small animal or bird motifs at their feet. The composition is highly symmetrical and rhythmic, the figures closely packed across the length of each board. The surface shows age: fine cracks, scuffs and areas of rubbed paint soften the originally vivid colors. A thin dark border frames each strip, giving the whole a decorative, ceremonial feel.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 43211,
+        "title": "Interior of the Oude Kerk, Delft",
+        "era": "early modernity",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/43211.jpg",
+        "generated_description": "A painted interior of a large, sunlit church seen from near the entrance. Towering, round stone columns march back into the space and support high arched windows that let soft, pale light wash the nave. Near the center a raised wooden pulpit holds a lone preacher speaking down to the congregation. Below and around him dozens of parishioners cluster in dark coats and wide hats; children stand or sit at the front. A striking figure in the foreground wears a pale blue coat, an elaborate plumed hat and holds a cane, drawing the eye with brighter color and a confident pose. Golden chandeliers, a carved organ case and hanging banners add decorative highlights. The scene feels calm and everyday—people gathered for worship within grand architecture that emphasizes scale and quiet light.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 259839,
+        "title": "This Little Pig Went to Market",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/259839.jpg",
+        "generated_description": "A softly lit oil painting, framed with a rounded arch at the top, shows a quiet domestic scene of a mother and her small child. The seated woman wears a deep green, full-skirted gown with richly patterned trim and a wide white lace underskirt that pools at her feet. On her lap sits a bare-legged toddler with curly blond hair, wrapped in a simple white shift, smiling outward while the mother looks down with a gentle, attentive expression. Behind them a curtained canopy bed with blue drapery and rumpled white pillows fills the left background. To the right a small round table holds a teacup and saucer. Warm, directional light highlights faces and sumptuous fabrics against a dim, neutral interior, creating an intimate, tender atmosphere.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 156596,
+        "title": "Fruit Piece",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/156596.jpg",
+        "generated_description": "Oval still-life painting showing a quiet tabletop arrangement. At center sits a white, openwork porcelain bowl on a short pedestal, piled with bright fruit: round oranges, a red apple, a yellow lemon, a green banana and a small pineapple with rough, spiky skin at the back. To the left, a shallow glass dish holds a tight cluster of red strawberries with tiny seeds. To the right, an ornate silver sugar bowl on three feet contains irregular white sugar cubes and a beaded-handled spoon. Two polished utensils — a spoon and a knife with a pale handle — lie across the patterned beige damask tablecloth in the foreground. The scene is softly lit from the left, emphasizing smooth, glossy fruit skins, cool metal shine and finely rendered textures, creating a calm, meticulous realism.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 76166,
+        "title": "Phebe Russell Swain Welch",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/76166.jpg",
+        "generated_description": "Bust-length oil portrait of an older woman set against a flat, dark background. She is shown three-quarters facing right, with a long, narrow face, pale skin, and light blue-gray eyes that look steadily forward. Her mouth is thin and closed, creating a reserved, slightly stern expression; fine lines crease her forehead and around her mouth. She wears a close-fitting white cap with a ruffled edge and small white dots, tied under her chin, and a triangular white shawl draped over a plain dark dress. The painting uses muted, earthy tones and soft, careful shading to model her features. At the left edge an ornate gold cursive inscription includes a birth year, 1793. Overall the portrait conveys restraint, dignity, and plain dress typical of late 18th-century modest portraiture.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 183293,
+        "title": "Solitude",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/183293.jpg",
+        "generated_description": "A wide, quiet pastoral landscape seen from a shaded foreground toward a distant, sunlit horizon. Tall trees frame the right and left edges, their dark foliage creating a cool shadow over a gently sloping lawn. To the right, beneath a large tree, a lone reclining figure rests or sleeps, small against the scene. In the middle distance two tiny figures walk across an open field. Beyond them the land falls away into layered hedgerows and clumps of trees, rising to a rounded mountain that sits under a pale sky. Broad, soft clouds glow with daylight near the horizon, casting gentle light across the valley. In the foreground a narrow dirt path and scattered rocks and wildflowers add texture. Overall the composition feels calm, spacious, and slightly melancholic.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 97681,
+        "title": "The Movings",
+        "era": "19th century",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/97681.jpg",
+        "generated_description": "A crowded street scene at dawn: in the center a large wooden cart piled high with mismatched furniture, mattresses, chairs and trunks, two tired horses hitched at its front. Around the cart a group of men, women and children in layered, old-fashioned clothing pause to rest, talk and exchange goods—some sit on crates, one woman stands holding a basket, another cradles a child. To the right, a man crouches opening a trunk while a dog sniffs the ground; another dog pulls at a leash at the left edge. Tall city houses form a block on the right, and a domed institutional building glows softly in the pale sky to the left. Warm morning light casts long shadows, giving the busy scene a sense of weariness, movement and quiet human resilience.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 145807,
+        "title": "Thistles",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/145807.jpg",
+        "generated_description": "A soft, impressionistic study fills the whole rectangle with a tangling of dried grasses and delicate seedheads. The palette is earthy—warm rust and ochre ground washed with muted greens and deep browns—while thin, chalky strokes of pale gray-white trace the stems and feathery flower tops. Marks are layered and diagonal, suggesting wind-blown movement; some stems stand upright, others lean and crisscross, creating a network of fine lines. The paint surface reads dry and powdery, with quick, sketch-like gestures rather than crisp detail. Overall impression: a late-autumn or winter meadow seen close-up, quiet and fragile, where brittle textures and faded colors evoke the hush and brittle sound of dead grasses underfoot. The composition feels intimate, textured, and slightly melancholy.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 212351,
+        "title": "Received Back into the Moon Palace-Taketori (Bamboo Cutter) from the series Twelve Aspects of the Moon",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/212351.jpg",
+        "generated_description": "Vertical hanging painting with a wide expanse of muted golden-beige background. Near the top a pale full moon hangs above a small cluster of swirling, translucent clouds. Three women float on the clouds, facing one another: the central figure wears layered, richly patterned kimono in green, pink and white and has long black hair falling over her shoulders; two attendants in smaller, equally decorative robes hold thin poles topped with circular fans above her. Their garments show floral and geometric motifs in soft reds, greens and golds. Far below, an elderly barefoot man kneels on the ground, leaning back with arms thrust upward in awe or supplication. He wears a worn brown robe with wave patterns; a short bamboo staff lies beside him. The large empty space between them emphasizes distance, wonder, and a quietly mystical encounter.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 3551,
+        "title": "Study for \"Arrangement in Grey and Black, No. 2: Portrait of Thomas Carlyle\"",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/3551.jpg",
+        "generated_description": "A dim, intimate painting of a solitary seated figure seen in profile, occupying the right half of the canvas. The person, dressed in a long dark coat or robe, sits upright on a simple wooden chair; hands are raised near the chest as if knitting or handling a small object. The face and collar catch the faintest warm light, leaving most details softly blurred in shadow. The left half of the scene is mostly empty wall, punctuated by two faint rectangular frames that suggest pictures or windows. Overall the palette is low-key — deep browns, muted greens and black — with loose, textured brushstrokes that blur edges and emphasize mood over detail. The composition feels quiet and contemplative, with a heavy sense of stillness and private thought.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 110761,
+        "title": "Venetian Glass Workers",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/110761.jpg",
+        "generated_description": "A dimly lit workshop seen from slightly above, its interior mostly swallowed by deep shadow except for a high, narrow window at the upper left that pours a soft, slanted light. Five figures—mostly women and a child—sit or lean around workbenches, bent over delicate, fan-shaped white materials that flash like wings against the dark. The woman at right is the clearest: pale blouse, layered skirts, seated on a low stool, her hands busy shaping or tying the white pieces. A child in the center reads or inspects a sheet, head bowed. Other workers recede into the gloom, their faces only suggested. The floor is warm, reddish-brown tile; brushstrokes are loose and economical. The overall mood is quiet, concentrated, and intimate, a study of labor held in low, gentle light.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16554,
+        "title": "The Artist's House at Argenteuil",
+        "era": "impressionist period",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16554.jpg",
+        "generated_description": "A sunlit, impressionistic garden scene beside a pale house. In the foreground a smooth, sandy path stretches toward the middle ground where a small child in a white dress with a dark sash stands playing with a hoop, tiny and central in the composition. To the left a large, leafy tree throws dappled shade; to the right the house wall is almost hidden by climbing green vines and open wooden shutters. A row of cobalt-blue ceramic pots lines the path’s right edge, holding green plants, and abundant flower beds of pink, red and white spill toward the house. Above, a clear blue sky is dotted with a few soft, white clouds. A woman in a long dress and hat stands near the doorway, adding a quiet, domestic presence. The brushwork is soft and luminous, suggesting a warm, tranquil afternoon.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 154235,
+        "title": "The Girl by the Window",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/154235.jpg",
+        "generated_description": "A soft, impressionistic scene shows a solitary figure in a loose white nightdress standing at a tall window. She leans forward with both hands on the thin curtain, peering into a cool, blue evening. Moonlike light spills through the window panes and forms a pale rectangular patch on the wooden floor, contrasting with deep, velvety shadows that fill the room. The curtains read as delicate and gauzy; brushstrokes suggest their texture rather than sharp detail. Across the window a distant, warm square of light hints at another house. A rounded piece of furniture sits in the foreground, its shape blurred into the surrounding darkness. Overall the painting conveys quiet vigilance and gentle melancholy: a private, hushed moment of waiting or longing, rendered in soft edges and layered, tactile color.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 80499,
+        "title": "Dorothea and Francesca",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/80499.jpg",
+        "generated_description": "A softly lit oil painting of a woman and a young girl walking hand in hand. The taller woman wears a long, flowing white skirt and pale blouse; she lifts a corner of her dress with one hand while gently holding the child’s hand with the other. The girl wears a short, pale pink dress with a wide white sash and looks down at her feet as she steps forward. Both figures are rendered with loose, sweeping brushstrokes and warm, muted colors against a dark, undefined background that brings them forward. The woman’s head is tilted slightly toward the child in a protective, attentive posture. The overall feeling is calm and tender, emphasizing movement, care, and the quiet intimacy of an adult guiding a child.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 61128,
+        "title": "At the Moulin Rouge",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/61128.jpg",
+        "generated_description": "A crowded, late-19th-century café-concert scene seen from a low angle. In the foreground a wooden banquette and a small marble-topped table hold a glass and a carafe. A cluster of figures—men in dark coats and top hats, women in high-necked dresses and fur stoles—sit and lean close, their faces turned toward one another in conversation. Behind them, a pair of women stand adjusting hair, and mirrors or windows scatter dim reflections across the room. On the far right a woman with very pale, almost green-tinted make-up and a dramatic black costume leans toward the viewer, her expression tired or provocative. Warm ochres, deep browns and muted greens dominate; textures of glossy wood, plush fur and stiff hats convey a smoky, intimate, slightly theatrical atmosphere of nightlife and social mixing.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 42953,
+        "title": "The Butcher Cart",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/42953.jpg",
+        "generated_description": "A snowy city street scene: thick, textured brushstrokes show a green, open-sided wagon with large red wheels moving across deep, rutted snow. A dark horse pulls the cart away from the viewer toward a shadowed block of tall buildings on the right. Inside the wagon dozens of pale birds — geese or ducks — hang in tight rows, their white bodies contrasting with the dark carriage. A small black dog runs ahead, leaving pawprints in the snow. At the street edge a dense crowd clusters in front of a building with shuttered windows, suggested by quick, dark strokes. In the far left background a plume of smoke and a distant vehicle add to the urban bustle. The overall mood is cold, busy and slightly chaotic, a winter market moment captured in motion.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 16579,
+        "title": "Vétheuil",
+        "era": "post-impressionist",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/16579.jpg",
+        "generated_description": "A soft, impressionistic riverscape rendered in pale pastels. The scene centers on a small riverside village with a tall, square tower rising above clustered houses; their roofs and walls blur together in short, feathery brushstrokes. The buildings sit on a low bank across calm water that mirrors their shapes in vertical, shimmering reflections. Colors are muted and warm — lavender, rose, peach, and gold merge with cool blues and greens, producing a hazy, twilight or early-morning glow. Edges are blurred rather than sharp, giving the whole image a misty, dreamlike quality. The sky and distant hills wash into one another in layered bands of color, while the textured paint suggests flickering light and the gentle motion of water. Overall the painting feels quiet, reflective, and luminous.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 65861,
+        "title": "Business",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/65861.jpg",
+        "generated_description": "A rectangular, abstract painting that reads like a pared-down interior wall with a calendar motif. Center stage is a large grid of ochre-yellow squares framed by thin, dark lines; above the grid a narrow band shows the weekday abbreviations “SUN MON TUE WED THU FRI SAT” in small, faded type. Higher on the wall are nine numbered ochre blocks on a muted red background — a small pale “1” sits at the upper left, then blocks numbered 2–7 across a row and 8–9 beneath them. Flanking the central grid are tall vertical planes and shadowed, blocky shapes in cool grays, deep maroon and black that suggest columns or recesses. The surface is matte with visible brush texture; the overall mood is geometric, quiet and slightly austere, emphasizing shape, number and architectural space.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 102234,
+        "title": "American Collectors (Fred and Marcia Weisman)",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/102234.jpg",
+        "generated_description": "Painting of a quiet, sunlit courtyard in a graphic, mid-century style. In the foreground, a man in a dark suit stands at left in profile, facing right. At center-left a low pedestal supports a rounded, greenish stone sculpture. At center-right a woman in a long, bright pink dress stands facing slightly toward the viewer, arms loosely crossed. Both figures are adult scale and cast long, crisp shadows on a speckled, terrazzo-like ground, suggesting strong sunlight from the upper left. Behind them is a pale turquoise building with a recessed doorway; inside sits a small seated green figure on a chair. At far right a potted young tree casts a slim shadow, and beyond it a tall carved totem with vivid painted faces rises against a clear blue sky. The scene feels calm, ordered, and slightly surreal.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 27281,
+        "title": "Madam Pompadour",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/27281.jpg",
+        "generated_description": "Centered head-and-shoulders oil portrait of a slender figure with an elongated neck and stylized, mask-like face. The skin is painted in warm rose and peach tones, with simplified, narrow almond eyes and a thin, straight nose and small pursed mouth. A wide, dark hat with a pale feather sits low on the brow, casting shadow across the forehead. The figure wears a dark, rounded neckline and a single small circular pendant at the throat. Background areas are blocky and textured—muted grays, a square of deep red behind the head, and a green-checked section at upper right—created with visible brushstrokes and layered paint. Overall impression: flat, elegant shapes, deliberate simplification of features, and a quiet, introspective mood.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 24836,
+        "title": "Brushstroke with Spatter",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/24836.jpg",
+        "generated_description": "Square image dominated by bold, graphic shapes and high-contrast colors. The background is a soft pink filled with regular tiny black dots like halftone printing. Across the lower right to upper left runs a thick, undulating ribbon of bright yellow striped with black, its ends cut off by the frame. A vivid cobalt-blue paint splash arcs from the lower center toward the upper right, with a dense central blot, elongated drips and scattered droplets that suggest motion and splatter. All elements are outlined in solid black, creating a flat, comic-book feel. The composition feels energetic and dynamic: the yellow bands push horizontally while the blue splash slices diagonally, producing a sense of sudden impact against the patterned background.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    },
+    {
+        "id": 117266,
+        "title": "Nightlife",
+        "era": "modern",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/117266.jpg",
+        "generated_description": "A crowded, stylized nightclub scene painted in rich purples and reds. In the foreground, a woman in a pale yellow dress leans back as a man in a pink suit holds her hand, their bodies caught mid-dance. To the right, a woman wearing a green hat and red beads sits at a small round table, gazing at a man in a dark suit who offers a drink. At left, bar stools and a long shelf packed with bottles frame a bald bartender who reaches up. Behind and above them, dozens of revelers press together, arms raised, dancing, talking, and gesturing in animated poses. Exaggerated figures, deep shadows, and bright highlights create a sense of music, heat, and bustling nighttime energy. The composition feels theatrical and lively rather than photo-realistic.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "Write an alternative text, annotation of the provided image supposedly for a blind/low vision groupmake the description around 100-150 words long."
+    }
+]

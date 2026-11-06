@@ -15,7 +15,7 @@ era_order = [
 ]
 
 def main():
-    with open("harvested_data.json", "r", encoding="utf-8-sig") as file:
+    with open("chicago_harvested_data.json", "r", encoding="utf-8-sig") as file:
         data = json.load(file)
 
     df = pd.DataFrame(data)
@@ -31,10 +31,7 @@ def main():
     )
 
 
-    plot_eras(df)
-    print_summary(df)
-    artwork_date_word_count_plot(df)
-    plot_origin_counts(df)
+   
 
 
 def print_summary(df):

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 146988,
+        "title": "Rodeo",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/146988.jpg",
+        "generated_description": "A study in elemental contrasts, this painting reduces pictorial space to two austere, horizontally divided planes. The upper field, a warm, luminescent yellow, sits directly above a cool, dense graphite-gray, their meeting marked by a crisp, almost architectural seam. The surfaces are largely even yet retain faint variances of hand-applied pigment, suggesting a careful, human touch within a rigorously minimal idiom. Visually spare and formally precise, the work balances warmth and restraint, lightness and weight, inviting associations with horizon lines, dawn and dusk, or a psychological tempering between optimism and gravity. Its quiet clarity encourages slow looking: the simplicity of the composition becomes a space for reflection rather than declaration.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 65821,
+        "title": "Composition (No. 1) Gray-Red",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/65821.jpg",
+        "generated_description": "Austere and deliberate, this composition reduces painting to its structural essentials: vertical and horizontal black bands subdivide the canvas into pale fields of white and grey, punctuated by a single, low red rectangle. The measured geometry and limited palette reflect the language of Neoplasticism, in which line and primary color are used to seek universal harmony. The black grid both divides and unites the surface, creating a careful tension between symmetry and asymmetry as the eye moves across open planes and compressed intervals. Close inspection reveals a fine craquelure and subtle brushwork beneath the flat tones, a reminder of the artist’s hand. The result is simultaneously architectural and meditative—a study in balance, restraint and visual order.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 109819,
+        "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/109819.jpg",
+        "generated_description": "Set on its diagonal, this pared‑down composition reduces painting to plane, line and pure color. Thick black horizontals and verticals divide a white field into carefully measured compartments, while three saturated accents—a triangular yellow zone at the upper left, a small blue wedge at the right, and a pinprick of red near the lower corner—provide punctuation and counterweight. A solid black block anchors the left side, introducing a moment of visual density against broad areas of negative space. The precise geometry and primary palette evoke principles of modernist abstraction, foregrounding balance, rhythm and economy of means. The rotated format adds a subtle dynamism, inviting the viewer to consider equilibrium and tension as equally compositional forces rather than opposites.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 186682,
+        "title": "Grey Diamond",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/186682.jpg",
+        "generated_description": "Carefully rotated on its diagonal, this work presents a rigorously ordered field of interlocking rectangles and bands. A cool palette of slate and charcoal establishes a measured ground against which vivid primaries—red, yellow, orange, cobalt and teal—punctuate the surface. Hard-edged shapes meet in right angles, creating a compact, grid-like architecture that feels both engineered and painterly. The composition balances asymmetry and repetition, producing a steady rhythm of verticals and horizontals that hints at urban plans or mechanical schemata. Against the flatness of the painted planes the bright accents animate the whole, suggesting movement and interval rather than narrative. Economical yet energetic, the painting explores how restrained geometry and chromatic contrast can convey spatial depth, tension, and a disciplined vitality.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    },
+    {
+        "id": 242223,
+        "title": "Étude No. 1",
+        "era": "abstract",
+        "local_image": "/Users/noahshomefolder/Code/Data Projects/Museum Data/art institute of chicago/242223.jpg",
+        "generated_description": "A constellation of interlocking circles, semicircles, triangles and bands floats against a warm, parchment-like ground. A thin, yellow ring frames the composition, while a vertical cluster of geometric elements rises slightly left of center. The palette—soft blues and greens, sunlit yellow and touches of red—is applied with crisp edges and occasional painterly texture, emphasizing both precision and tactility. Shapes overlap and bisect one another, producing secondary forms and a sense of centrifugal motion that is at once orderly and playful. The work reads as an exercise in balance: mathematical rigor tempered by visual lyricism. A small monogram in the lower right anchors the piece, but the dominant impression is of luminous restraint—a harmonized study of form, color and spatial rhythm.",
+        "description_model": "gpt-5-mini",
+        "description_prompt": "You are a museum curator tasked with writing a description of the artwork provided. Describe the painting in a clear, detailed, and engaging manner, considering its visual elements, artistic style, possible meanings, and overall impression. Write approximately 100–150 words in a natural, museum-style tone."
+    }
+]

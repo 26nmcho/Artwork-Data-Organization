@@ -7,10 +7,24 @@ def missing_data_check(df):
         series = df.iloc[:,i]
         print(f"{series.name}: {series.isna().sum()}")
 
+        if series.dtype == str:
+            print(f"Number of empty strings:  {series[series == ""].sum()}")
+        if series.dtype == int:
+                    print(f"Number of zeros:  {series[series == 0].sum()}")
+        if series.dtype == object:
+                            print(f"Number of null:  {series[series == None].sum()}")
+
 def duplicate_check(df):
     ids = df.duplicated(subset = ["id"])
     print(f"Duplicated IDs: {ids.sum()}")
-    ##159 duplicate IDs furhter missingness data should be colleced
+    ##159 duplicate IDs furhter missingness data should be collected
+
+def type_check(df):
+    columns = df.shape[1]
+    for i in range(columns):
+        series = df.iloc[:,i]
+        print(f"{series.name}: {series.dtype}")
+    ## checks all type in the data
 
 def description_average(df):
     df["description_length"] = df["description"].map(lambda x: len(x.split()))
@@ -24,9 +38,14 @@ if __name__ == "__main__":
         data = json.load(file)
 
     df = pd.DataFrame(data)
+
+    print(df.describe("creation date early"))
     ##missing_data_check(df) - returned all zeros
     duplicate_check(df)
 
+
+
+    type_check(df)
 
 
 # document all findings like journal
