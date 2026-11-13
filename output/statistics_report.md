@@ -244,7 +244,7 @@ Accepted: **1,189** files
 | 19th century | 5 | 0 | 5 | 0 |
 | impressionist period | 5 | 0 | 5 | 0 |
 | post-impressionist | 5 | 0 | 5 | 0 |
-| modern | 5 | 4 | 3 | 5 |
+| modern | 5 | 4 | 7 | 1 |
 | contemporary | 0 | 1 | 0 | 0 |
 
 ![](/Users/noahshomefolder/Code/Data Projects/Artwork Data Organization/output/charts/samples_per_era.png)
@@ -258,8 +258,4 @@ Accepted: **1,189** files
 | Chicago | 65821 | Composition (No. 1) Gray-Red | 1935 | modern |
 | Chicago | 186682 | Grey Diamond | 1955 | modern |
 | Chicago | 146988 | Rodeo | 1971 | contemporary |
-| Cleveland | 164630 | Night Café | 1918 | modern |
-| Cleveland | 149112 | Church Street El | 1920 | modern |
-| Cleveland | 167456 | Rock at Sea | 1920 | modern |
-| Cleveland | 135420 | Morning Glory with Black | 1926 | modern |
 | Cleveland | 143278 | Composition with Red, Yellow, and Blue | 1927 | modern |

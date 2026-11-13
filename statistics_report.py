@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 
 # python3 statistics_report.py                -> turns your edited .md into the pdf
 # python3 statistics_report.py --recalculate  -> redoes the numbers, overwrites the .md (old one saved as .bak)
+# python3 statistics_report.py --era          -> rebuilds only era_paintings.md (old one saved as .bak)
 
 PROJECT = Path(__file__).parent
 OUTPUT_DIR = PROJECT / "output"
@@ -490,6 +491,35 @@ def sample_era_chart(rows):
     return save_chart(figure, "samples_per_era")
 
 
+# the sampled painting for each era, fixed so the notes always stay with the painting they're about
+ERA_SAMPLE = {
+    "classical": ("chicago", 805),
+    "medieval": ("cleveland", 133012),
+    "renaissance": ("cleveland", 97179),
+    "early modernity": ("cleveland", 135483),
+    "19th century": ("cleveland", 162195),
+    "impressionist period": ("cleveland", 150017),
+    "post-impressionist": ("cleveland", 125249),
+    "modern": ("cleveland", 149587),
+    "contemporary": ("chicago", 146988),
+}
+
+
+def painting_block(rows, heading):
+    art = rows[0]
+    parts = [heading]
+    parts.append(f"![{art['title']}]({art['local_image']})\n")
+    parts.append(table(["Museum", "ID", "Title", "Year", "Abstract"], [
+        [art["museum"].title(), art["id"], art["title"], art["creation date early"],
+         "yes" if art["abstract"] else "no"],
+    ]))
+    parts.append("")
+    for row in sorted(rows, key=lambda r: r["prompt_name"]):
+        label = row["prompt_name"].replace("_", " ")
+        parts.append(f"> **{label}:** {' '.join(row['generated_description'].split())}\n")
+    return parts
+
+
 def era_paintings_section(samples):
     grouped = {}
     for sample in samples:
@@ -499,22 +529,11 @@ def era_paintings_section(samples):
     notes_by_artwork = {(entry["museum"], entry["id"]): entry["notes"] for entry in era_notes["paintings"]}
     used_notes = set()
 
-    parts = ["# One painting per era\n"]
+    parts = ["# Sampling and notes\n", "One painting per era, with notes on how the three prompts compare.\n"]
     for era in ERA_ORDER:
-        choices = [rows for rows in grouped.values() if rows[0]["era"] == era]
-        # most prompts first so paintings with the full set win, then not abstract, then oldest
-        rows = min(choices, key=lambda r: (-len(r), r[0]["abstract"], r[0]["creation date early"], r[0]["id"]))
+        rows = grouped[ERA_SAMPLE[era]]
         art = rows[0]
-        parts.append(f"\n## {era[0].upper()}{era[1:]}\n")
-        parts.append(f"![{art['title']}]({art['local_image']})\n")
-        parts.append(table(["Museum", "ID", "Title", "Year", "Abstract"], [
-            [art["museum"].title(), art["id"], art["title"], art["creation date early"],
-             "yes" if art["abstract"] else "no"],
-        ]))
-        parts.append("")
-        for row in sorted(rows, key=lambda r: r["prompt_name"]):
-            label = row["prompt_name"].replace("_", " ")
-            parts.append(f"> **{label}:** {' '.join(row['generated_description'].split())}\n")
+        parts.extend(painting_block(rows, f"\n## {era[0].upper()}{era[1:]}\n"))
         key = (art["museum"], art["id"])
         if key in notes_by_artwork:
             used_notes.add(key)
@@ -522,13 +541,25 @@ def era_paintings_section(samples):
             parts.extend(f"- {note}" for note in notes_by_artwork[key])
             parts.append("")
 
-    # a note can only drop off if its painting stops being the pick for its era
+    # a note can only drop off if its painting isn't in ERA_SAMPLE
     for key in notes_by_artwork.keys() - used_notes:
-        print(f"Warning: notes for {key} aren't in the era pdf because that painting isn't picked")
+        print(f"Warning: notes for {key} aren't in the era pdf because that painting isn't sampled")
 
     if era_notes["overall"]:
-        parts.append("### Overall notes\n")
+        parts.append("\n## Overall notes\n")
         parts.extend(f"- {note}" for note in era_notes["overall"])
+
+    # every artwork in the dataset, sampled ones included, grouped by era and oldest first
+    parts.append("\n# All generated descriptions\n")
+    parts.append(f"All {len(grouped)} artworks in descriptions.json, grouped by era.\n")
+    for era in ERA_ORDER:
+        in_era = sorted((rows for rows in grouped.values() if rows[0]["era"] == era),
+                        key=lambda r: (r[0]["creation date early"], r[0]["museum"], r[0]["id"]))
+        if not in_era:
+            continue
+        parts.append(f"\n## {era[0].upper()}{era[1:]} ({len(in_era)} artwork{"" if len(in_era) == 1 else "s"})\n")
+        for rows in in_era:
+            parts.extend(painting_block(rows, f"\n### {rows[0]['title']}\n"))
     return "\n".join(parts)
 
 
@@ -614,6 +645,10 @@ h4 { margin: 8pt 0 2pt; }
 table { margin: 2pt 0 4pt; }
 p.example { font-size: 8.8pt; margin: 3pt 0 4pt; }
 li { margin: 2pt 0; }
+h1:not(:first-of-type) { break-before: page; }
+h1 + h2:not(:first-of-type), h1 + p + h2:not(:first-of-type) { break-before: auto; }
+h3 { break-before: page; margin-top: 0; }
+h2 + h3 { break-before: auto; }
 """
 
 
@@ -732,8 +767,12 @@ def render_pdf(markdown_file, pdf_file, title, extra_css=""):
 def main():
     if "--recalculate" in sys.argv or not REPORT_MD.exists() or not ERA_MD.exists():
         calculate()
+    elif "--era" in sys.argv:
+        # rebuilds only the era md, so hand edits to the stats md stay
+        shutil.copy(ERA_MD, ERA_MD.with_suffix(".md.bak"))
+        ERA_MD.write_text(era_paintings_section(load_samples()) + "\n", encoding="utf-8")
     render_pdf(REPORT_MD, REPORT_PDF, "Artwork stats")
-    render_pdf(ERA_MD, ERA_PDF, "One painting per era", ERA_CSS)
+    render_pdf(ERA_MD, ERA_PDF, "Era paintings", ERA_CSS)
 
 
 if __name__ == "__main__":
