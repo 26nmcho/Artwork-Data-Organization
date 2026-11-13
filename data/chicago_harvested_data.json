@@ -468,17 +468,6 @@
         "api_link": "https://api.artic.edu/api/v1/artworks/90437"
     },
     {
-        "filename": "artic-api-data/json/artworks/220168.json",
-        "id": 220168,
-        "title": "One of a Pair of Manuscript Covers from the Glorification of the Great Goddess (Devimahatmya)",
-        "image_id": "53eb3c01-e31d-1688-e3c1-a90c1dbf09d4",
-        "description": "The Hindu goddess Durga. slayer of the buffalo demon Mahesha (Mahishasuramardini), appears in rhythmic succession 12 times in this pair of manuscript covers from Nepal. In this myth the gods, unable to defeat a powerful shape-changing demon in the form of a water buffalo, decide to create a goddess who—with their combined weapons, energy, and strength—will be able to vanquish it. Whirling her arms and brandishing her weapons, the goddess stabs the demon with her lance in one lower hand and lifts him up by the tail with another. Her right foot stands upon her trademark vehicle, shown as a snow lion in Nepal, while her left foot crushes the demon’s back. As she does so, a human form emerges from the animal’s neck. In an expressive detail, the buffalo’s severed head droops below the picture frame. In Nepal Durga is often called “Bhagwati,” and she is worshipped annually in an autumn festival in both India and Nepal.\n",
-        "date_start": 1701,
-        "date_end": 1800,
-        "place_of_origin": "Nepal",
-        "api_link": "https://api.artic.edu/api/v1/artworks/220168"
-    },
-    {
         "filename": "artic-api-data/json/artworks/79507.json",
         "id": 79507,
         "title": "Pillars of the Country",
