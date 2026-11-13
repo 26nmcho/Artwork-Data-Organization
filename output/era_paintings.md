@@ -15,6 +15,12 @@
 
 > **plain description:** This horizontal strip of ancient papyrus shows a richly detailed funerary scene and columns of hieroglyphic text. The fibrous brown surface bears neat lines of dark ink written in a script that runs in vertical bands across the center and left, while the rightmost panel contains a painted vignette. There a green-skinned, seated deity wears a tall white crown and faces a standing figure who appears to offer homage; both figures are rendered with the stylized profile and bright pigments typical of Egyptian art. The edges of the papyrus are worn and slightly torn, with areas of fading that testify to its age. Overall, the piece conveys the ceremonial language and iconography of ancient Egyptian burial literature and ritual practice.
 
+#### Notes
+
+- High restriction is the only one to refer to the New Kingdom Book of the Dead manuscripts
+- Alt text refers to the dimensions
+- Interesting the plain description appears to have some contextual capability it refers to the figure in the painting as a diety pointing to a more complimentary style of description
+
 
 ## Medieval
 
@@ -29,6 +35,10 @@
 > **less restriction alt text method:** Vertical painted Buddhist scroll showing a tiered spiritual landscape. At the top center sits a large seated Buddha with a glowing round halo, flanked by two slightly smaller seated attendants; they occupy a raised pavilion fronted by a wide veranda and stylized rooflines. Beneath them a curved stone bridge arches over a river where two small standing figures face each other. Lower registers drop into a wide, busy plain: small walking and seated people, boats on water, animals, and a patch of bright, swirling red water with a creature in it. At the bottom are simple houses and piers set in marshy ground. The composition reads in stacked bands from sacred, elevated space down to everyday life. A narrow patterned brocade border frames the whole image.
 
 > **plain description:** This vertical hanging scroll presents a carefully ordered vision of a Buddhist afterlife. At the top, three golden figures—centered by a radiant Buddha guarded by attendant bodhisattvas—sit before an elegant palace, its layered roofs and bridges suggesting a heavenly realm. Below them, a curved bridge spans a dark river where pilgrims and silhouettes move toward salvation. The middle register shows turbulent red flames and smaller figures amid scenes of judgment and deliverance, while the lower zones depict everyday buildings, boats, and landscapes dotted with tiny human figures. Rich golds, deep reds, and muted greens give the work a sacred glow, and an ornate patterned border frames the multilayered narrative, guiding the viewer from earthly life up toward spiritual awakening.
+
+#### Notes
+
+- What is starting to interest me is that plain description places much higher emphasis on the rhetoric when the painting aligns itself with a widely understood religion “”multilayered narrative, guiding the viewer from earthly life up toward spiritual awakening
 
 
 ## Renaissance
@@ -45,6 +55,10 @@
 
 > **plain description:** This small, octagonal panel shows the Madonna seated with the Christ Child on her lap, rendered in the restrained, devotional style of the late medieval or early Renaissance period. A burnished gold ground surrounds the figures, picking out delicate halos and lending a sacred glow. Mary’s composed face is framed by a blue veil and a dark robe with gilt trim; her downcast eyes and gentle hands convey calm tenderness. The child, dressed in patterned green and pink robes, holds a small bird—an emblematic detail suggesting future suffering—while meeting the viewer with a solemn expression. Subtle wear and craquelure across the painted surface and the gilt field hint at the panel’s age, giving the scene an intimate, time-worn dignity.
 
+#### Notes
+
+- The descriptions with this artwork are especially interesting. These descriptions were all extremely similar suggesting that when artwork depicts notable religious figures it shifts the descriptive style. When describing the papyrus still a religious symbolism, the text was oriented more torwads the image. Describing the length and color palette while in the Christian imagery, descriptions shifted the the characters themselves  and the context.
+
 
 ## Early modernity
 
@@ -60,6 +74,10 @@
 
 > **plain description:** A tranquil, classical landscape unfolds at dusk: a towering, shadowed cliff on the left frames a sunlit rocky promontory on the right, where weathered columns of a ruined temple rise among tall, umbrella-like pines. In the foreground a calm pool reflects the warm, fading light while cattle graze and drink along the water’s edge. Small human figures — shepherds and travelers — recline or stand, lending scale and quiet narrative to the scene. Soft, golden tones wash the distant hills and sky, creating a gentle contrast with the deep shadows of the gorge. The composition balances rugged natural forms with the serene presence of antiquity, evoking peaceful solitude and the slow passage of time.
 
+#### Notes
+
+- one of the bigger landscape paintings, in this the plain description places higher emphasis on the subjects instead of the mood and rhetoric
+
 
 ## 19th century
 
@@ -74,6 +92,10 @@
 > **less restriction alt text method:** A soft, classical oil scene of two nude figures drifting in the sky, wrapped together in a translucent veil. A woman leans tenderly over a reclining man, her long, curly hair spilling down as she cradles his head and presses her forehead to his. The man’s body is partially covered by a crimson cloth, one arm raised to hold her close. A small winged cherub follows at the left, reaching toward them with playful, watchful eyes. Pale, warm light spills from above, forming a gentle halo around the pair; clouds and mist dissolve into darker tones below, giving the impression of floating between heaven and shadow. The brushwork is smooth and luminous, emphasizing intimacy, protection, and a hush of suspended motion.
 
 > **plain description:** A tender, dreamlike scene unfolds in this Neoclassical tableau: two nude figures float suspended among soft, clouded skies, wrapped in a diaphanous veil that billows around them. The woman leans gently over the reclining man, their bodies closely entwined in a protective, intimate embrace; her long hair cascades over his shoulder while his face nestles into her neck. A small winged cherub hovers nearby, quietly witnessing the couple’s affection. Warm, rosy light bathes their skin, creating luminous highlights and subtle shadows that model the forms with graceful softness. The composition’s diagonal sweep and muted palette evoke a sense of calm and suspension, conveying both romantic longing and serene transcendence as if the moment exists between heaven and dream.
+
+#### Notes
+
+- the high and low restriction descriptions have much similarity notably the low restriction is somewhat more descriptive of physical attributes. However the plain description seems to be shifting more towards commentary note: “as if the moment exists between heaven and dream.”
 
 
 ## Impressionist period
@@ -120,6 +142,11 @@
 
 > **plain description:** A languid figure reclines across an opulent chaise, her powdered pink gown spread in soft, ruffled tiers scattered with tiny black bows. The off-shoulder bodice and elbow-length gloves suggest a late 19th-century elegance; a delicate fan rests in one hand while a small bouquet lies in her lap. Her dark hair is swept back with a hint of blue ribbon, and she meets the viewer with a knowing, slightly amused expression. Rich, shadowed tones envelop the scene, the deep backdrop and gilded screen setting off the pale fabrics and lively brushwork. The painting captures both the sumptuous texture of fashion and a private, intimate mood — poised, relaxed, and quietly suggestive of a cultivated leisure.
 
+#### Notes
+
+- The plain description describes the subject of the artwork as figure while the other two descriptions write woman.
+- High restriction is interestingly enough the one that does not address the “mood” in this example
+
 
 ## Contemporary
 
@@ -135,3 +162,6 @@
 
 > **plain description:** A minimalist, color-block composition divides the canvas into two broad, horizontal planes. The upper half is a warm, muted yellow that radiates a soft glow, while the lower half is a deep, cool gray that anchors the image with quiet solidity. The crisp, almost architectural seam where the colors meet creates a deliberate horizon, suggesting balance and restraint. The flat, even application of pigment and lack of detail emphasize shape and tone over representation, inviting a meditative response. The juxtaposition of warmth and neutrality evokes contrasts—light and shadow, optimism and calm—without prescribing a narrative. Simple yet resonant, the piece relies on color, proportion, and negative space to create a contemplative visual presence.
 
+### Overall notes
+
+- Torwards more abstract paintings the plain descriptions deviation from the other two shrinks: reference post impressionist impressionist and contemporary paintings

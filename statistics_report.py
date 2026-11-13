@@ -33,6 +33,7 @@ MUTED_INK = "#52514e"
 GRID = "#e6e5e0"
 
 DESCRIPTIONS_FILE = PROJECT / "descriptions" / "descriptions.json"
+ERA_NOTES_FILE = PROJECT / "descriptions" / "era_notes.json"
 IMAGES_ROOT = Path("/Users/noahshomefolder/Code/Data Projects/Museum Data")
 CLEVELAND_IMAGES = IMAGES_ROOT / "cleveland_images"
 CHICAGO_RAW = Path("/Users/noahshomefolder/Downloads/artic-api-data/json/artworks")
@@ -494,6 +495,10 @@ def era_paintings_section(samples):
     for sample in samples:
         grouped.setdefault((sample["museum"], sample["id"]), []).append(sample)
 
+    era_notes = json.loads(ERA_NOTES_FILE.read_text(encoding="utf-8"))
+    notes_by_artwork = {(entry["museum"], entry["id"]): entry["notes"] for entry in era_notes["paintings"]}
+    used_notes = set()
+
     parts = ["# One painting per era\n"]
     for era in ERA_ORDER:
         choices = [rows for rows in grouped.values() if rows[0]["era"] == era]
@@ -510,6 +515,20 @@ def era_paintings_section(samples):
         for row in sorted(rows, key=lambda r: r["prompt_name"]):
             label = row["prompt_name"].replace("_", " ")
             parts.append(f"> **{label}:** {' '.join(row['generated_description'].split())}\n")
+        key = (art["museum"], art["id"])
+        if key in notes_by_artwork:
+            used_notes.add(key)
+            parts.append("#### Notes\n")
+            parts.extend(f"- {note}" for note in notes_by_artwork[key])
+            parts.append("")
+
+    # a note can only drop off if its painting stops being the pick for its era
+    for key in notes_by_artwork.keys() - used_notes:
+        print(f"Warning: notes for {key} aren't in the era pdf because that painting isn't picked")
+
+    if era_notes["overall"]:
+        parts.append("### Overall notes\n")
+        parts.extend(f"- {note}" for note in era_notes["overall"])
     return "\n".join(parts)
 
 
@@ -583,6 +602,21 @@ figcaption { font-size: 7.5pt; line-height: 1.3; margin-top: 3pt; color: #52514e
 """
 
 
+# each painting and its notes should fit on one page
+ERA_CSS = """
+@page { margin: 0.55in 0.75in; }
+body { font-size: 9.5pt; line-height: 1.35; }
+h1 { font-size: 18pt; margin-bottom: 2pt; }
+h2 { margin: 6pt 0 6pt; }
+h4 { margin: 8pt 0 2pt; }
+.gallery { margin: 4pt 0 5pt; }
+.single figure img { max-height: 1.55in; }
+table { margin: 2pt 0 4pt; }
+p.example { font-size: 8.8pt; margin: 3pt 0 4pt; }
+li { margin: 2pt 0; }
+"""
+
+
 def inline(text):
     text = html.escape(text, quote=False)
     text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
@@ -642,7 +676,7 @@ def gallery_html(lines, folder):
     return f'<div class="{kind}">{"".join(figures)}</div>'
 
 
-def markdown_to_html(text, folder, title):
+def markdown_to_html(text, folder, title, extra_css):
     lines = text.splitlines()
     out = []
     i = 0
@@ -679,12 +713,12 @@ def markdown_to_html(text, folder, title):
             out.append(f"<p>{inline(line)}</p>")
             i += 1
     body = "\n".join(out)
-    return f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title><style>{CSS}</style></head><body>{body}</body></html>'
+    return f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title><style>{CSS}{extra_css}</style></head><body>{body}</body></html>'
 
 
-def render_pdf(markdown_file, pdf_file, title):
+def render_pdf(markdown_file, pdf_file, title, extra_css=""):
     with tempfile.TemporaryDirectory() as folder:
-        page = markdown_to_html(markdown_file.read_text(encoding="utf-8"), folder, title)
+        page = markdown_to_html(markdown_file.read_text(encoding="utf-8"), folder, title, extra_css)
         html_file = Path(folder) / "report.html"
         html_file.write_text(page, encoding="utf-8")
         subprocess.run([
@@ -699,7 +733,7 @@ def main():
     if "--recalculate" in sys.argv or not REPORT_MD.exists() or not ERA_MD.exists():
         calculate()
     render_pdf(REPORT_MD, REPORT_PDF, "Artwork stats")
-    render_pdf(ERA_MD, ERA_PDF, "One painting per era")
+    render_pdf(ERA_MD, ERA_PDF, "One painting per era", ERA_CSS)
 
 
 if __name__ == "__main__":

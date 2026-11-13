@@ -1,0 +1,58 @@
+{
+    "paintings": [
+        {
+            "museum": "chicago",
+            "id": 805,
+            "title": "Funerary Papyrus of Tayuhenutmut",
+            "notes": [
+                "High restriction is the only one to refer to the New Kingdom Book of the Dead manuscripts",
+                "Alt text refers to the dimensions",
+                "Interesting the plain description appears to have some contextual capability it refers to the figure in the painting as a diety pointing to a more complimentary style of description"
+            ]
+        },
+        {
+            "museum": "cleveland",
+            "id": 133012,
+            "title": "The White Path to the Western Paradise across Two Rivers (Niga Byakudō)",
+            "notes": [
+                "What is starting to interest me is that plain description places much higher emphasis on the rhetoric when the painting aligns itself with a widely understood religion “”multilayered narrative, guiding the viewer from earthly life up toward spiritual awakening"
+            ]
+        },
+        {
+            "museum": "cleveland",
+            "id": 97179,
+            "title": "Virgin and Child",
+            "notes": [
+                "The descriptions with this artwork are especially interesting. These descriptions were all extremely similar suggesting that when artwork depicts notable religious figures it shifts the descriptive style. When describing the papyrus still a religious symbolism, the text was oriented more torwads the image. Describing the length and color palette while in the Christian imagery, descriptions shifted the the characters themselves  and the context."
+            ]
+        },
+        {
+            "museum": "cleveland",
+            "id": 135483,
+            "title": "Ruins in a Rocky Landscape",
+            "notes": [
+                "one of the bigger landscape paintings, in this the plain description places higher emphasis on the subjects instead of the mood and rhetoric"
+            ]
+        },
+        {
+            "museum": "cleveland",
+            "id": 162195,
+            "title": "Aurora and Cephalus",
+            "notes": [
+                "the high and low restriction descriptions have much similarity notably the low restriction is somewhat more descriptive of physical attributes. However the plain description seems to be shifting more towards commentary note: “as if the moment exists between heaven and dream.”"
+            ]
+        },
+        {
+            "museum": "cleveland",
+            "id": 149587,
+            "title": "Souvenir of an \"International Ball\" (Portrait of Miss Kathleen Bruce)",
+            "notes": [
+                "The plain description describes the subject of the artwork as figure while the other two descriptions write woman.",
+                "High restriction is interestingly enough the one that does not address the “mood” in this example"
+            ]
+        }
+    ],
+    "overall": [
+        "Torwards more abstract paintings the plain descriptions deviation from the other two shrinks: reference post impressionist impressionist and contemporary paintings"
+    ]
+}
